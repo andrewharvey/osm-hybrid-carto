@@ -1,0 +1,72 @@
+{
+  "_center": {
+    "lat": -25.799891,
+    "lon": 136.406250,
+    "zoom": 4
+  },
+  "_format": "png",
+  "_interactivity": false,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "drainage.mss",
+    "features.mss",
+    "addr.mss"
+  ],
+  "Layer": [
+    {
+      "Datasource": {
+        "host": "localhost",
+        "port": "5432",
+        "user": "osmuser",
+        "password": "password",
+        "dbname": "osm",
+        "table": "planet_osm_polygon",
+        "geometry_field": "",
+        "extent": "",
+        "type": "postgis"
+      },
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "id": "osm_polygon",
+      "name": "osm_polygon",
+      "class": "",
+      "geometry": "polygon"
+    },
+    {
+      "Datasource": {
+        "host": "localhost",
+        "port": "5432",
+        "user": "osmuser",
+        "password": "password",
+        "dbname": "osm",
+        "table": "planet_osm_line",
+        "geometry_field": "",
+        "extent": "",
+        "type": "postgis"
+      },
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "id": "osm_line",
+      "name": "osm_line",
+      "class": "",
+      "geometry": "linestring"
+    },
+    {
+      "Datasource": {
+        "host": "localhost",
+        "port": "5432",
+        "user": "osmuser",
+        "password": "password",
+        "dbname": "osm",
+        "table": "planet_osm_point",
+        "geometry_field": "",
+        "extent": "",
+        "type": "postgis"
+      },
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "id": "osm_point",
+      "name": "osm_point",
+      "class": "",
+      "geometry": "point"
+    }
+  ]
+}
