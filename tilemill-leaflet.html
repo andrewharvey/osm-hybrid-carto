@@ -4,8 +4,8 @@
   -->
   <head>
     <title></title>
-    <link rel="stylesheet" href="./lib/leaflet/leaflet.css" type="text/css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="./lib/leaflet/leaflet.ie.css" /><![endif]-->
+    <link rel="stylesheet" href="/javascript/leaflet/leaflet.css" type="text/css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="/javascript/lib/leaflet/leaflet.ie.css" /><![endif]-->
     <style type="text/css">
         body {
             margin: 0;
@@ -28,13 +28,13 @@
             opacity: 0.75;
         }
     </style>
-    <script src="./lib/leaflet/leaflet.js" type="text/javascript"></script>
+    <script src="/javascript/leaflet/leaflet.js" type="text/javascript"></script>
     <script type="text/javascript">
         var map;
         window.onload = function init(){
             map = new L.Map('map',
                 {
-                  center: new L.LatLng(-34, 151.1),  
+                  center: new L.LatLng(-34, 151.1),
                   zoom: 15
                 });
 
@@ -45,16 +45,16 @@
                   maxZoom: 21,
                 });
             map.addLayer(nearmap);
-            
+
             /* add the tilemill overlay */
-            var tilemill = new L.TileLayer("http://localhost:8889/1.0.0/osmt/{z}/{x}/{y}.png?updated=" + Date.now(), //this date will be updated when you refresh the page
+            var tilemill = new L.TileLayer("http://localhost:8889/1.0.0/osmt/{z}/{x}/{y}.png",
                 {
-                  attribution: 'Map data &copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors, CC-BY-SA',
+                  attribution: 'Map Data &amp; Map Image &copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors, CC-BY-SA',
                   maxZoom: 21,
                   scheme: 'tms'
                 });
             map.addLayer(tilemill);
-            
+
             map.on('zoomend', function(e) {
                 document.getElementById('zoomlvllabel').innerHTML = "Zoom " + map.getZoom();
             });
