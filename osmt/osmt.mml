@@ -1,0 +1,276 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    1
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 24,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "highway.mss",
+    "poi.mss",
+    "railway.mss",
+    "waterway.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "name": "footway",
+      "id": "footway",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "highway",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway,\n    access,\n    bridge,\n    tunnel,\n    name,\n    tags->'footway' as footway,\n    tags->'sidewalk' as sidewalk\n  FROM planet_osm_line\n  WHERE\n    highway in ('footway', 'steps')\n) AS highway",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "service",
+      "id": "service",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway,\n    service\n  FROM planet_osm_line\n  WHERE highway in ('service')\n) AS service_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "residential",
+      "id": "residential",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('residential', 'living_street')\n) AS residential_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "unclassified",
+      "id": "unclassified",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('unclassified')\n) AS unclassified_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "tertiary",
+      "id": "tertiary",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('tertiary')\n) AS tertiary_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "secondary",
+      "id": "secondary",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": " (\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('secondary')\n) AS secondary_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "primary",
+      "id": "primary",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('primary', 'primary_link')\n) AS primary_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "trunk",
+      "id": "trunk",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('trunk', 'trunk_link')\n) AS trunk_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "motorway",
+      "id": "motorway",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "road",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('motorway', 'motorway_link')\n) AS motorway_hwy",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "highway-labels",
+      "id": "highway-labels",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "label",
+      "Datasource": {
+        "table": "(\n  SELECT way, name, highway\n  FROM planet_osm_line\n  WHERE highway is not null\n) AS hwylabels",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "amenity",
+      "id": "amenity",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      man_made,\n      tourism,\n      barrier,\n      building,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null OR\n                    man_made IS NOT null OR\n                    tourism IS NOT null OR\n                    barrier IS NOT null OR\n                    building IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      man_made,\n      tourism,\n      barrier,\n      null,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_line\n    WHERE (amenity IS NOT null OR\n                    man_made IS NOT null OR\n                    tourism IS NOT null OR\n                    barrier IS NOT null)\n  )\n) AS amenity_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "railway-line",
+      "id": "railway-line",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    railway\n  FROM planet_osm_line\n  WHERE railway in ('rail', 'tram', 'light_rail', 'monorail')\n) AS railway_line",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "waterway",
+      "id": "waterway",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    waterway,\n    tags->'intermittent' AS int\n  FROM planet_osm_line\n  WHERE waterway is not null\n) AS waterway",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    }
+  ],
+  "name": "osmt",
+  "description": "OpenStreetMap like map style for overlaying on aerial imagery"
+}
