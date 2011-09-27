@@ -133,11 +133,11 @@ ideally I would
   point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.000000.12.png');
 }
 
-#amenity[barrier='entrance'],[building='entrance'] {
+#amenity[barrier='entrance'],#amenity[building='entrance'] {
   point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.000000.12.png');
 }
 
-#amenity[barrier='exit'],[building='entrance'] {
+#amenity[barrier='exit'],#amenity[building='exit'] {
   point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.000000.12.png');
 }
 
