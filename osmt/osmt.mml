@@ -268,6 +268,24 @@
         "port": "5432",
         "user": "osm",
         "password": "osm"
+      },
+    {
+      "geometry": "linestring",
+      "name": "waterway-labels",
+      "id": "waterway-labels",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "label",
+      "Datasource": {
+        "table": "(\n  SELECT way, name, waterway\n  FROM planet_osm_line\n  WHERE waterway is not null\n) AS waterwaylabels",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
       }
     }
   ],
