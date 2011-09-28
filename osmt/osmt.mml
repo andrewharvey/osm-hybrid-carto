@@ -20,7 +20,8 @@
     "highway.mss",
     "poi.mss",
     "railway.mss",
-    "waterway.mss"
+    "waterway.mss",
+    "locality.mss"
   ],
   "Layer": [
     {
@@ -49,7 +50,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway,\n    service\n  FROM planet_osm_line\n  WHERE highway in ('service')\n) AS service_hwy",
+        "table": "(\n  SELECT\n    way,\n    highway,\n    bridge,\n    tunnel,\n    oneway,\n    service\n  FROM planet_osm_line\n  WHERE highway in ('service')\n) AS service_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -68,7 +69,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('residential', 'living_street')\n) AS residential_hwy",
+        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('residential', 'living_street')\n) AS residential_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -87,7 +88,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('unclassified')\n) AS unclassified_hwy",
+        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('unclassified')\n) AS unclassified_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -106,7 +107,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('tertiary')\n) AS tertiary_hwy",
+        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('tertiary')\n) AS tertiary_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -125,7 +126,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": " (\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('secondary')\n) AS secondary_hwy",
+        "table": " (\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('secondary')\n) AS secondary_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -144,7 +145,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('primary', 'primary_link')\n) AS primary_hwy",
+        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('primary', 'primary_link')\n) AS primary_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -163,7 +164,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('trunk', 'trunk_link')\n) AS trunk_hwy",
+        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('trunk', 'trunk_link')\n) AS trunk_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -182,7 +183,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('motorway', 'motorway_link')\n) AS motorway_hwy",
+        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('motorway', 'motorway_link')\n) AS motorway_hwy",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -268,7 +269,8 @@
         "port": "5432",
         "user": "osm",
         "password": "osm"
-      },
+      }
+    },
     {
       "geometry": "linestring",
       "name": "waterway-labels",
@@ -277,6 +279,25 @@
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT way, name, waterway\n  FROM planet_osm_line\n  WHERE waterway is not null\n) AS waterwaylabels",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "locality-labels",
+      "id": "locality-labels",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "label",
+      "Datasource": {
+        "table": "(\n  SELECT\n    ST_Centroid(way) as way,\n    name,\n    boundary,\n    admin_level,\n    place\n  FROM planet_osm_line\n  WHERE (\n    (boundary in ('administrative') OR\n    place IS NOT NULL) AND\n    (name IS NOT NULL)\n  )\n) AS localitylabels",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
