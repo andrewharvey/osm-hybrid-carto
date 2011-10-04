@@ -80,6 +80,22 @@
     [zoom < 12] { line-width: 0; }
   }
   
+  ::oneway_arrow[oneway='yes'] {
+    marker-type: arrow;
+    
+    marker-width: 2;
+    marker-line-width: 2;
+    
+    marker-opacity: 0.8;
+    marker-line-opacity: 1.0;
+    
+    marker-fill: #fff;
+    marker-line-color: #fff;
+    
+    marker-spacing: 100;
+    
+  }
+  
 }
 
 .highway#footway{ 
