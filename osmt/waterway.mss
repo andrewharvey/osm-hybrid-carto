@@ -43,3 +43,20 @@
   text-halo-fill: @water_halo_fill;
   text-halo-radius: 2.0;
 }
+
+#bay-label {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: point;
+  text-halo-fill: @water_halo_fill;
+  text-halo-radius: 2.0;
+  text-transform: uppercase;
+  text-wrap-width: 50px;
+  text-opacity: 0.75;
+  
+  [zoom>14] { text-size: 15px; text-halo-radius: 2.0; }
+  [zoom=14] { text-size: 10px; text-halo-radius: 1.0; }
+  [zoom=13] { text-size: 5px; text-halo-radius: 1.0; }
+  [zoom<13] { text-size: 0px; }
+}

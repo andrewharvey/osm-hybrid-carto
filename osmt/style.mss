@@ -41,3 +41,24 @@ TODO:
 
 * get rid of the small circle artifacts on ~zoom 15
 */
+
+#park-labels{
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: interior;
+  text-halo-fill: #0e300e;
+  text-halo-radius: 2.0;
+  text-wrap-width: 20;
+  text-opacity: 0.75;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom < 15] { text-size: 0; }
+}

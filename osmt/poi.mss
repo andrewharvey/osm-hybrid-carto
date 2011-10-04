@@ -177,6 +177,15 @@ ideally I would
 #amenity[amenity='school'] {
   point-file: url('/usr/share/icons/sjjb/png/education/school.glow.000000.12.png');
   
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: point;
+  text-halo-fill: #ffc863;
+  text-halo-radius: 1.0;
+  text-wrap-width: 20;
+  text-vertical-alignment: bottom;
+  
   #amenity[amenity='school'][school_level='primary'] {
     point-file: url('/usr/share/icons/sjjb/png/education/school_primary.glow.000000.12.png');
   }
@@ -202,11 +211,297 @@ ideally I would
 }
 
 
+/* sport */
+[zoom > 16] {
+  #sport[sport='archery'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.666666.12.png');
+  }
+  
+  #sport[sport='baseball'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.666666.12.png');
+  }
+  
+  #sport[sport='canoe'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.666666.12.png');
+  }
+  
+  #sport[sport='cricket'],#sport[sport='cricket_nets'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.666666.12.png');
+  }
+  
+  #sport[sport='diving'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.666666.12.png');
+  }
+  
+  #sport[sport='golf'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.666666.12.png');
+  }
+  
+  #amenity[amenity='gym'],#amenity[leisure='gym'],#sport[sport='gym'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.666666.12.png');
+  }
+  
+  #sport[sport='gymnasium'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.666666.12.png');
+  }
+  
+  #sport[sport='hillclimbing'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.666666.12.png');
+  }
+  
+  #sport[sport='horse_racing'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.666666.12.png');
+  }
+  
+  #sport[sport='iceskating'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.666666.12.png');
+  }
+  
+  #sport[sport='jetski'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.666666.12.png');
+  }
+  
+  #sport[sport='minature_golf'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.666666.12.png');
+  }
+  
+  #sport[sport='motorracing'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.666666.12.png');
+  }
+  
+  #amenity[leisure='playground'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.666666.12.png');
+  }
+  
+  #sport[sport='sailing'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.666666.12.png');
+  }
+  
+  #sport[sport='shooting'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.666666.12.png');
+  }
+  
+  #sport[sport='snooker'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.666666.12.png');
+  }
+  
+  #sport[sport='soccer'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.666666.12.png');
+  }
+  
+  /*stadium*/
+  
+  #sport[sport='swimming'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indor.glow.666666.12.png');
+  }
+  
+  #sport[sport='tennis'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.666666.12.png');
+  }
+  
+  #sport[sport='windsurfing'] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.666666.12.png');
+  }
+}
 
+/* shops and food */
+[zoom > 16] {
+  #shop[shop='alcohol']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/alcohol.glow.DA0092.12.png');
+  }
 
+  #shop[shop='bakery']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/bakery.glow.DA0092.12.png');
+  }
 
+  #shop[shop='bicycle']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/bicycle.glow.DA0092.12.png');
+  }
 
+  #shop[shop='book']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/book.glow.DA0092.12.png');
+  }
 
+  #shop[shop='butcher']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/butcher.glow.DA0092.12.png');
+  }
+
+  #shop[shop='car']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/car.glow.DA0092.12.png');
+  }
+
+  #shop[shop='car_repair']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/car_repair.glow.DA0092.12.png');
+  }
+
+  #shop[shop='clothes']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/clothes.glow.DA0092.12.png');
+  }
+
+  #shop[shop='computer']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/computer.glow.DA0092.12.png');
+  }
+
+  #shop[shop='confectionery']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/confectionery.glow.DA0092.12.png');
+  }
+
+  #shop[shop='convenience']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/convenience.glow.DA0092.12.png');
+  }
+
+  #shop[shop='copyshop']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/copyshop.glow.DA0092.12.png');
+  }
+
+  #shop[shop='department_store']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/department_store.glow.DA0092.12.png');
+  }
+
+  #shop[shop='diy']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/diy.glow.DA0092.12.png');
+  }
+
+  #shop[shop='estateagent']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/estateagent.glow.DA0092.12.png');
+  }
+
+  #shop[shop='fish']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/fish.glow.DA0092.12.png');
+  }
+
+  #shop[shop='florist']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/florist.glow.DA0092.12.png');
+  }
+
+  #shop[shop='garden_centre']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/garden_centre.glow.DA0092.12.png');
+  }
+
+  #shop[shop='gift']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/gift.glow.DA0092.12.png');
+  }
+
+  #shop[shop='greengrocer']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/greengrocer.glow.DA0092.12.png');
+  }
+
+  #shop[shop='hairdresser']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/hairdresser.glow.DA0092.12.png');
+  }
+
+  #shop[shop='hearing_aids']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/hearing_aids.glow.DA0092.12.png');
+  }
+
+  #shop[shop='hifi']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/hifi.glow.DA0092.12.png');
+  }
+
+  #shop[shop='jewelry']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/jewelry.glow.DA0092.12.png');
+  }
+
+  #shop[shop='kiosk']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/kiosk.glow.DA0092.12.png');
+  }
+
+  #shop[shop='laundrette']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/laundrette.glow.DA0092.12.png');
+  }
+
+  #shop[shop='marketplace']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/marketplace.glow.DA0092.12.png');
+  }
+
+  #shop[shop='mobile_phone']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/mobile_phone.glow.DA0092.12.png');
+  }
+
+  #shop[shop='motorcycle']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/motorcycle.glow.DA0092.12.png');
+  }
+
+  #shop[shop='music']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/music.glow.DA0092.12.png');
+  }
+
+  #shop[shop='newspaper']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/newspaper.glow.DA0092.12.png');
+  }
+
+  #shop[shop='pet']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/pet.glow.DA0092.12.png');
+  }
+
+  #shop[shop='photo']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/photo.glow.DA0092.12.png');
+  }
+
+  #shop[shop='supermarket']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/supermarket.glow.DA0092.12.png');
+  }
+
+  #shop[shop='tackle']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/tackle.glow.DA0092.12.png');
+  }
+
+  #shop[shop='tobacco']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/tobacco.glow.DA0092.12.png');
+  }
+
+  #shop[shop='toys']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/toys.glow.DA0092.12.png');
+  }
+
+  #shop[shop='vending_machine']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/vending_machine.glow.DA0092.12.png');
+  }
+
+  #shop[shop='video_rental']{
+    point-file: url('/usr/share/icons/sjjb/png/shopping/video_rental.glow.DA0092.12.png');
+  }
+
+  #shop[amenity='bar']{
+    point-file: url('/usr/share/icons/sjjb/png/food/bar.glow.DA0092.12.png');
+  }
+  
+  #shop[amenity='biergarten']{
+    point-file: url('/usr/share/icons/sjjb/png/food/biergarten.glow.DA0092.12.png');
+  }
+  
+  #shop[amenity='cafe']{
+    point-file: url('/usr/share/icons/sjjb/png/food/cafe.glow.DA0092.12.png');
+  }
+  
+  #shop[amenity='drinking_water'],#shop[amenity='tap']{
+    point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.DA0092.12.png');
+  }
+  
+  #shop[amenity='fastfood']{
+    point-file: url('/usr/share/icons/sjjb/png/food/fastfood.glow.DA0092.12.png');
+    
+    #shop[cuisine='pizza']{
+      point-file: url('/usr/share/icons/sjjb/png/food/fastfood_pizza.glow.DA0092.12.png');
+    }
+  }
+  
+  #shop[shop='ice_cream']{
+    point-file: url('/usr/share/icons/sjjb/png/food/ice_cream.glow.DA0092.12.png');
+  }
+  
+  #shop[shop='pizza']{
+    point-file: url('/usr/share/icons/sjjb/png/food/pizza.glow.DA0092.12.png');
+  }
+  
+  #shop[amenity='pub']{
+    point-file: url('/usr/share/icons/sjjb/png/food/pub.glow.DA0092.12.png');
+  }
+  
+  #shop[amenity='restaurant']{
+    point-file: url('/usr/share/icons/sjjb/png/food/restaurant.glow.DA0092.12.png');
+  }
+}
 
 /*
 select count(amenity) as c, amenity from planet_osm_point group by amenity order by c desc limit 100;
