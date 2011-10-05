@@ -229,7 +229,7 @@
 
 .road#residential{
   [highway='living_street'] {
-    line-color: #00ab00;
+    line-color: #76d276;
   }
   
   [zoom > 17] { line-width: 10; }
