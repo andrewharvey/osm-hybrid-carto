@@ -175,16 +175,31 @@ ideally I would
 }
 
 #amenity[amenity='school'] {
-  point-file: url('/usr/share/icons/sjjb/png/education/school.glow.000000.12.png');
+  ::icon{
+    point-file: url('/usr/share/icons/sjjb/png/education/school.glow.000000.12.png');
+  }
   
-  text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
-  text-placement: point;
-  text-halo-fill: #ffc863;
-  text-halo-radius: 1.0;
-  text-wrap-width: 20;
-  text-vertical-alignment: bottom;
+  ::label{
+    text-name: "[name]";
+    text-face-name: "Liberation Sans Regular";
+    text-fill: white;
+    text-placement: point;
+    text-halo-fill: #6c4600;
+    text-halo-radius: 2.0;
+    text-wrap-width: 20;
+    text-vertical-alignment: bottom;
+    text-opacity: 0.75;
+    
+    [zoom > 21] { text-size: 30; }
+    [zoom = 21] { text-size: 25; }
+    [zoom = 20] { text-size: 20; }
+    [zoom = 19] { text-size: 15; }
+    [zoom = 18] { text-size: 13; }
+    [zoom = 17] { text-size: 12; }
+    [zoom = 16] { text-size: 11; }
+    [zoom = 15] { text-size: 11; }
+    [zoom < 15] { text-size: 0; }
+  }
   
   #amenity[amenity='school'][school_level='primary'] {
     point-file: url('/usr/share/icons/sjjb/png/education/school_primary.glow.000000.12.png');
@@ -303,6 +318,11 @@ ideally I would
     point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.666666.12.png');
   }
 }
+
+/*
+FIXME need to write a perl script to auto generate this file. I want the below
+rules, but again for zoom>18 with a larger png symbol
+*/
 
 /* shops and food */
 [zoom > 16] {
