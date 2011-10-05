@@ -21,7 +21,8 @@
     "poi.mss",
     "railway.mss",
     "waterway.mss",
-    "locality.mss"
+    "locality.mss",
+    "addr.mss"
   ],
   "Layer": [
     {
