@@ -460,6 +460,25 @@
         "user": "osm",
         "password": "osm"
       }
+    },
+    {
+      "geometry": "point",
+      "name": "addr-point",
+      "id": "addr-point",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "addr",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_point\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n  UNION\n  (\n    SELECT\n      ST_Centroid(way) as way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_polygon\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n) as addr_point",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
     }
   ],
   "name": "osmt",
