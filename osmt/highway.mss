@@ -227,6 +227,24 @@
   }
 }
 
+#turning-circle{
+  marker-type: ellipse;
+  marker-placement: point;
+  
+  marker-fill: #000000;
+  marker-opacity: 0.5;
+  marker-line-width: 0;
+  
+  [zoom > 17] { marker-width: 10; }
+  [zoom = 17] { marker-width: 7.5; }
+  [zoom = 16] { marker-width: 3.5; }
+  [zoom = 15] { marker-width: 1.75; }
+  [zoom = 14] { marker-width: 1; }
+  [zoom = 13] { marker-width: 0.75; }
+  [zoom = 12] { marker-width: 0.3; }
+  [zoom < 12] { marker-width: 0; }
+}
+
 .road#residential{
   [highway='living_street'] {
     line-color: #76d276;
