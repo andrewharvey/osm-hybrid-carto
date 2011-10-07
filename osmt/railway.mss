@@ -1,4 +1,4 @@
-#railway-line[railway='rail'] {
+#railway-line[railway='rail'][zoom > 11] {
   line-opacity: 0.5;
   line-color: #AAAAAA;
   
@@ -9,7 +9,6 @@
   [zoom = 14] { line-width: 1;  line-opacity: 0.9 }
   [zoom = 13] { line-width: 1; line-opacity: 0.9 }
   [zoom = 12] { line-width: 0.25;  line-opacity: 0.9  }
-  [zoom < 12] { line-width: 0; }
   
   /* the dotted part */
   ::track{
@@ -25,34 +24,34 @@
     [zoom = 14] { line-width: 0.75; }
     [zoom = 13] { line-width: 0.5; }
     [zoom = 12] { line-width: 0.25; }
-    [zoom < 12] { line-width: 0; }
   }
 }
 
-#railway-station{
-  text-name: "[name]";
-  text-face-name: "Liberation Sans Bold";
-  text-fill: #AC39AC;
-  text-placement: point;
-  text-allow-overlap: true;
-  text-halo-fill: white;
-  text-halo-radius: 1.0;
-  
-  [zoom > 16] { text-dy: -15; }
-  [zoom = 16] { text-dy: -10; }
-  [zoom = 15] { text-dy: -8; }
-  [zoom = 14] { text-dy: -6; }
+#railway-station {
+  ::label[zoom > 13]{
+    text-name: "[name]";
+    text-face-name: "Liberation Sans Bold";
+    text-fill: #AC39AC;
+    text-placement: point;
+    text-allow-overlap: true;
+    text-halo-fill: white;
+    text-halo-radius: 1.0;
     
-  [zoom > 21] { text-size: 30; }
-  [zoom = 21] { text-size: 25; }
-  [zoom = 20] { text-size: 20; }
-  [zoom = 19] { text-size: 15; }
-  [zoom = 18] { text-size: 13; }
-  [zoom = 17] { text-size: 12; }
-  [zoom = 16] { text-size: 11; }
-  [zoom = 15] { text-size: 11; }
-  [zoom = 14] { text-size: 10; }
-  [zoom < 14] { text-size: 0; }
+    [zoom > 16] { text-dy: -15; }
+    [zoom = 16] { text-dy: -10; }
+    [zoom = 15] { text-dy: -8; }
+    [zoom = 14] { text-dy: -6; }
+      
+    [zoom > 21] { text-size: 30; }
+    [zoom = 21] { text-size: 25; }
+    [zoom = 20] { text-size: 20; }
+    [zoom = 19] { text-size: 15; }
+    [zoom = 18] { text-size: 13; }
+    [zoom = 17] { text-size: 12; }
+    [zoom = 16] { text-size: 11; }
+    [zoom = 15] { text-size: 11; }
+    [zoom = 14] { text-size: 10; }
+  }
   
   ::dot{
     point-allow-overlap: true;

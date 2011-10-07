@@ -179,7 +179,7 @@ ideally I would
     point-file: url('/usr/share/icons/sjjb/png/education/school.glow.000000.12.png');
   }
   
-  ::label{
+  ::label[zoom > 14] {
     text-name: "[name]";
     text-face-name: "Liberation Sans Regular";
     text-fill: white;
@@ -198,7 +198,6 @@ ideally I would
     [zoom = 17] { text-size: 12; }
     [zoom = 16] { text-size: 11; }
     [zoom = 15] { text-size: 11; }
-    [zoom < 15] { text-size: 0; }
   }
   
   #amenity[amenity='school'][school_level='primary'] {

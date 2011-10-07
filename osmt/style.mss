@@ -42,7 +42,7 @@ TODO:
 * get rid of the small circle artifacts on ~zoom 15
 */
 
-#park-labels{
+#park-labels[zoom > 14] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -60,5 +60,4 @@ TODO:
   [zoom = 17] { text-size: 12; }
   [zoom = 16] { text-size: 11; }
   [zoom = 15] { text-size: 11; }
-  [zoom < 15] { text-size: 0; }
 }

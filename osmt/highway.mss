@@ -4,7 +4,7 @@
 
 /* highway labels */
 
-#highway-labels[zoom>8]{
+#highway-labels[zoom > 11] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -23,7 +23,6 @@
   [zoom = 14] { text-size: 10; }
   [zoom = 13] { text-size: 8; }
   [zoom = 12] {text-size: 8; }
-  [zoom < 12] { text-size: 0; }
   
   /* cut off zoom levels for the display of labels per road classifications */
   [highway='footway'][zoom<15] { text-size: 0 }
@@ -50,7 +49,7 @@
   line-width: 1;
 }
 
-.road {
+.road[zoom > 11] {
   ::oneway_arrow[oneway='yes'] {
     marker-type: arrow;
     
@@ -80,7 +79,6 @@
   [zoom = 14] { line-width: 1.5; }
   [zoom = 13] { line-width: 1; }
   [zoom = 12] { line-width: 0.5; }
-  [zoom < 12] { line-width: 0; }
   
   ::bridge[bridge='yes'] {
     line-color: #000000;
@@ -95,12 +93,11 @@
     [zoom = 14] { line-width: 2; }
     [zoom = 13] { line-width: 1.5; }
     [zoom = 12] { line-width: 0.75; }
-    [zoom < 12] { line-width: 0; }
   }
   
 }
 
-.highway#footway{ 
+.highway#footway[zoom > 9] {
   ::halo{
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
@@ -109,7 +106,6 @@
     [zoom = 18] { line-width: 6 }
     [zoom = 17] { line-width: 4 }
     [zoom < 17] { line-width: 2 }
-    [zoom < 10] { line-width: 0 }
   }
   
   line-color: #FF0000;
@@ -119,7 +115,6 @@
   [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
   [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
   [zoom < 17] { line-width: 1.5; line-dasharray: 1,2 }
-  [zoom < 10] { line-width: 0 }
   
   [footway='sidewalk']{
     line-color: #0000FF;
@@ -131,12 +126,11 @@
     [zoom > 18] { line-dasharray: 3,4 }
     [zoom = 18] { line-dasharray: 2,3 }
     [zoom < 18] { line-dasharray: 1,2 }
-    [zoom < 10] { line-width: 0 }
   }
   
 }
 
-.highway#path{ 
+.highway#path[zoom > 9] {
   ::halo{
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
@@ -145,7 +139,6 @@
     [zoom = 18] { line-width: 6 }
     [zoom = 17] { line-width: 4 }
     [zoom < 17] { line-width: 2 }
-    [zoom < 10] { line-width: 0 }
   }
   line-color: #000000;
   line-dasharray: 2,2;
@@ -155,11 +148,10 @@
   [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
   [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
   [zoom < 17] { line-width: 1.5; line-dasharray: 1,2 }
-  [zoom < 10] { line-width: 0 }
   
 }
 
-.highway#track{ 
+.highway#track[zoom > 12] {
   ::halo{
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
@@ -171,7 +163,6 @@
     [zoom = 15] { line-width: 3.2 }
     [zoom = 14] { line-width: 3 }
     [zoom = 13] { line-width: 2.4 }
-    [zoom < 13] { line-width: 0 }
   }
   
   line-color: #6d4f15;
@@ -184,11 +175,10 @@
   [zoom = 15] { line-width: 1.8; line-dasharray: 3,4 }
   [zoom = 14] { line-width: 1.5; line-dasharray: 3,4 }
   [zoom = 13] { line-width: 1.2  ; line-dasharray: 3,4 }
-  [zoom < 13] { line-width: 0 }
 
 }
 
-.highway#cycleway{
+.highway#cycleway[zoom > 9] {
   ::halo{
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
@@ -197,7 +187,6 @@
     [zoom = 18] { line-width: 6 }
     [zoom = 17] { line-width: 4 }
     [zoom < 17] { line-width: 2 }
-    [zoom < 10] { line-width: 0 }
   }
   
   line-color: #0900ff;
@@ -208,10 +197,10 @@
   [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
   [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
   [zoom < 17] { line-width: 1.5; line-dasharray: 1,2 }
-  [zoom < 10] { line-width: 0 }
+
 }
 
-.road#service{
+.road#service[zoom > 11] {
   [zoom > 17] { line-width: 7.5; }
   [zoom = 17] { line-width: 5; }
   [zoom = 16] { line-width: 2.5; }
@@ -219,18 +208,16 @@
   [zoom = 14] { line-width: 0.75; }
   [zoom = 13] { line-width: 0.5; }
   [zoom = 12] { line-width: 0.25; }
-  [zoom < 12] { line-width: 0; }
   
-  [service='parking_aisle'] {
+  [service='parking_aisle'][zoom > 14] {
     [zoom > 17] { line-width: 3; }
     [zoom = 17] { line-width: 2.5; }
     [zoom = 16] { line-width: 1.25; }
     [zoom = 15] { line-width: 0.25; }
-    [zoom < 15] { line-width: 0; }
   }
 }
 
-#turning-circle{
+#turning-circle[zoom > 11] {
   marker-type: ellipse;
   marker-placement: point;
   
@@ -245,10 +232,9 @@
   [zoom = 14] { marker-width: 1; }
   [zoom = 13] { marker-width: 0.75; }
   [zoom = 12] { marker-width: 0.3; }
-  [zoom < 12] { marker-width: 0; }
 }
 
-.road#residential{
+.road#residential[zoom > 11] {
   [highway='living_street'] {
     line-color: #76d276;
   }
@@ -260,7 +246,6 @@
   [zoom = 14] { line-width: 1; }
   [zoom = 13] { line-width: 0.75; }
   [zoom = 12] { line-width: 0.3; }
-  [zoom < 12] { line-width: 0; }
   
 }
 
