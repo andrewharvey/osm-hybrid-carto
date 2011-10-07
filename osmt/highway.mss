@@ -1,4 +1,7 @@
 
+@path_halo_opacity: 0.7;
+@path_halo_colour: white;
+
 /* highway labels */
 
 #highway-labels[zoom>8]{
@@ -99,8 +102,8 @@
 
 .highway#footway{ 
   ::halo{
-    line-color: #FFFFFF;
-    line-opacity: 0.5;
+    line-color: @path_halo_colour;
+    line-opacity: @path_halo_opacity;
     
     [zoom > 18] { line-width: 9 }
     [zoom = 18] { line-width: 6 }
@@ -135,8 +138,8 @@
 
 .highway#path{ 
   ::halo{
-    line-color: #FFFFFF;
-    line-opacity: 0.5;
+    line-color: @path_halo_colour;
+    line-opacity: @path_halo_opacity;
     
     [zoom > 18] { line-width: 9 }
     [zoom = 18] { line-width: 6 }
@@ -158,8 +161,8 @@
 
 .highway#track{ 
   ::halo{
-    line-color: white;
-    line-opacity: 0.4;
+    line-color: @path_halo_colour;
+    line-opacity: @path_halo_opacity;
     
     [zoom > 18] { line-width: 16 }
     [zoom = 18] { line-width: 10 }
@@ -187,8 +190,8 @@
 
 .highway#cycleway{
   ::halo{
-    line-color: #FFFFFF;
-    line-opacity: 0.5;
+    line-color: @path_halo_colour;
+    line-opacity: @path_halo_opacity;
     
     [zoom > 18] { line-width: 9 }
     [zoom = 18] { line-width: 6 }
