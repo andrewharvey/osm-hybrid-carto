@@ -3,8 +3,7 @@
 @path_halo_colour: white;
 
 /* highway labels */
-
-#highway-labels[zoom > 11] {
+#highway-labels[highway='footway'][zoom > 14] { 
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -23,22 +22,229 @@
   [zoom = 14] { text-size: 10; }
   [zoom = 13] { text-size: 8; }
   [zoom = 12] {text-size: 8; }
-  
-  /* cut off zoom levels for the display of labels per road classifications */
-  [highway='footway'][zoom<15] { text-size: 0 }
-  [highway='cycleway'][zoom<15] { text-size: 0 }
-  [highway='path'][zoom<15] { text-size: 0 }
-  [highway='track'][zoom<14] { text-size: 0 }
-  
-  [highway='service'][zoom<17] { text-size: 0 }
-  [highway='residential'][zoom<16] { text-size: 0 }
-  [highway='unclassified'][zoom<15] { text-size: 0 }
-  [highway='tertiary'][zoom<15] { text-size: 0 }
-  [highway='secondary'][zoom<14] { text-size: 0 }
-  [highway='primary'][zoom<12] { text-size: 0 }
-  [highway='trunk'][zoom<11] { text-size: 0 }
-  [highway='motorway'][zoom<10] { text-size: 0 }
 }
+#highway-labels[highway='cycleway'][zoom > 14] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='path'][zoom > 14] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='track'][zoom > 13] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+
+#highway-labels[highway='service'][zoom > 16] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='residential'][zoom > 15] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='unclassified'][zoom > 14] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='tertiary'][zoom > 14] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='secondary'][zoom > 13] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='primary'][zoom > 11] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='trunk'][zoom > 10] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+#highway-labels[highway='motorway'][zoom > 9] { 
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: line;
+  text-halo-fill: black;
+  text-halo-radius: 2.0;
+  
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  [zoom = 14] { text-size: 10; }
+  [zoom = 13] { text-size: 8; }
+  [zoom = 12] {text-size: 8; }
+}
+
 
 .highway {
   line-color: #000000;
