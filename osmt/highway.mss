@@ -184,7 +184,7 @@
   [zoom = 13] { text-size: 8; }
   [zoom = 12] {text-size: 8; }
 }
-#highway-labels[highway='primary'][zoom > 11] { 
+#highway-labels[highway='primary'][zoom > 12] { 
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -204,7 +204,7 @@
   [zoom = 13] { text-size: 8; }
   [zoom = 12] {text-size: 8; }
 }
-#highway-labels[highway='trunk'][zoom > 10] { 
+#highway-labels[highway='trunk'][zoom > 12] { 
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -224,7 +224,7 @@
   [zoom = 13] { text-size: 8; }
   [zoom = 12] {text-size: 8; }
 }
-#highway-labels[highway='motorway'][zoom > 9] { 
+#highway-labels[highway='motorway'][zoom > 11] { 
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -256,7 +256,7 @@
 }
 
 .road[zoom > 11] {
-  ::oneway_arrow[oneway='yes'] {
+  ::oneway_arrow[oneway='yes'][zoom > 14] {
     marker-type: arrow;
     
     marker-width: 2;
