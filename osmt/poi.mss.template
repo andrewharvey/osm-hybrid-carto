@@ -1,0 +1,195 @@
+$col = 0092DA
+$mod = glow
+  #amenity[tourism=alpine_hut] accommodation
+  #amenity[tourism=chalet] accommodation
+  #amenity[tourism=camp_site] accommodation
+  #amenity[tourism=caravan_site] accommodation
+  #amenity[tourism=hotel] accommodation
+  #amenity[tourism=motel] accommodation
+
+$col = 8E7409
+$mod = glow
+  #amenity[amenity=bench]
+  #amenity[amenity=courthouse] /court
+  #amenity[amenity=fire_station] /firestation
+  #amenity[amenity=fountain]
+  #amenity[amenity=library]
+  #amenity[amenity=playground]
+  #amenity[amenity=police]
+  #amenity[amenity=post_box]
+  #amenity[amenity=post_office]
+  #amenity[amenity=prison]
+  #amenity[amenity=public_building]
+  #amenity[amenity=recycling]
+  #amenity[amenity=survey_point]
+  #amenity[amenity=telephone]
+  #amenity[amenity=toilets]
+  #amenity[amenity=townhall] /town_hall
+  #amenity[amenity=waste_basket] /waste_bin
+  #amenity[amenity=waste_disposal] /waste_bin
+  #amenity[man_made=water_tower] water/tower
+
+$col = 8E7409
+$mod = n
+  #amenity[tourism=attraction] tourist/
+  #amenity[amenity=cinema] tourist/
+  #amenity[amenity=fountain] tourist/
+  #amenity[tourism=information] tourist/
+  #amenity[tourism=memorial] tourist/
+  #amenity[tourism=monument] tourist/
+  #amenity[tourism=museum] tourist/
+  #amenity[tourism=picnic_site] tourist/picnic
+  #amenity[tourism=theme_park] tourist/
+  #amenity[tourism=viewpoint] tourist/view_point
+  #amenity[tourism=zoo] tourist/
+
+// barriers
+$col = 000000
+$mod = glow
+  #amenity[barrier=block] /blocks
+  #amenity[barrier=bollard]
+  #amenity[barrier=cattle_grid]
+  #amenity[barrier=cycle_barrier]
+  #amenity[barrier=entrance]
+  #amenity[building=entrance] barrier/
+  #amenity[barrier=exit]
+  #amenity[building=exit] barrier/
+  #amenity[barrier=gate]
+  #amenity[barrier=kissing_gate]
+  #amenity[barrier=lift_gate]
+  #amenity[barrier=steps]
+  #amenity[barrier=stile]
+  #amenity[barrier=toll_booth]
+
+// education
+$col = 734A08
+$mod = glow
+  #amenity[amenity=college] education/
+  #amenity[amenity=child_care] education/nursery
+  #amenity[amenity=school] education/school
+  #amenity[amenity=university] education/
+
+// healthcare
+$col = DA0092
+$mod = p
+  #amenity[amenity=dentist] health/
+  #amenity[amenity=doctors] health/
+  #amenity[amenity=hospital] health/
+  #amenity[amenity=pharmacy] health/
+  #amenity[amenity=veterinary] health/
+  #shop[shop=optician] health/
+
+// sports
+$col = 000000
+$mod = glow
+  #sport[sport=archery]
+  #sport[sport=baseball]
+  #sport[sport=canoe]
+  #sport[sport=cricket]
+  #sport[sport=cricket_nets] /cricket
+  #sport[sport=diving]
+  #sport[sport=golf]
+  #amenity[amenity=gym] sport/
+  #amenity[leisure=gym] sport/
+  #sport[sport=gym]
+  #sport[sport=gymnasium]
+  #sport[sport=hillclimbing]
+  #sport[sport=horse_racing]
+  #sport[sport=iceskating]
+  #sport[sport=jetski]
+  #sport[sport=minature_golf]
+  #sport[sport=motorracing]
+  #sport[leisure=playground] sport/
+  #sport[sport=sailing]
+  #sport[sport=shooting]
+  #sport[sport=snooker]
+  #sport[sport=soccer]
+  #sport[sport=swimming] /swimming_indoor
+  #sport[sport=tennis]
+  #sport[sport=windsurfing]
+
+// shops
+$col = AC39AC
+$mod = glow
+  #shop[shop=alcohol] shopping/
+  #shop[shop=bakery] shopping/
+  #shop[shop=bicycle] shopping/
+  #shop[shop=book] shopping/
+  #shop[shop=butcher] shopping/
+  #shop[shop=car] shopping/
+  #shop[shop=car_repair] shopping/
+  #shop[shop=clothes] shopping/
+  #shop[shop=computer] shopping/
+  #shop[shop=confectionery] shopping/
+  #shop[shop=convenience] shopping/
+  #shop[shop=copyshop] shopping/
+  #shop[shop=department_store] shopping/
+  #shop[shop=diy] shopping/
+  #shop[shop=estateagent] shopping/
+  #shop[shop=fish] shopping/
+  #shop[shop=florist] shopping/
+  #shop[shop=garden_centre] shopping/
+  #shop[shop=gift] shopping/
+  #shop[shop=greengrocer] shopping/
+  #shop[shop=hairdresser] shopping/
+  #shop[shop=hearing_aids] shopping/
+  #shop[shop=hifi] shopping/
+  #shop[shop=jewelry] shopping/
+  #shop[shop=kiosk] shopping/
+  #shop[shop=laundrette] shopping/
+  #shop[shop=marketplace] shopping/
+  #shop[shop=mobile_phone] shopping/
+  #shop[shop=motorcycle] shopping/
+  #shop[shop=music] shopping/
+  #shop[shop=newspaper] shopping/
+  #shop[shop=pet] shopping/
+  #shop[shop=photo] shopping/
+  #shop[shop=supermarket] shopping/
+  #shop[shop=tackle] shopping/
+  #shop[shop=tobacco] shopping/
+  #shop[shop=toys] shopping/
+  #shop[shop=vending_machine] shopping/
+  #shop[shop=video_rental] shopping/
+  #shop[amenity=bar] food/
+  #shop[amenity=biergarten] food/
+  #shop[amenity=cafe] food/
+  #shop[amenity=tap] food/drinkingtap
+  #shop[amenity=drinking_water] food/drinkingtap
+  #shop[amenity=fastfood] food/
+  #shop[amenity=ice_cream] food/
+  #shop[amenity=pizza] food/
+  #shop[amenity=pub] food/
+  #shop[amenity=restaurant] food/
+
+  #amenity[amenity=atm] money/
+  #amenity[amenity=bank] money/
+  #amenity[amenity=currency_exchange] money/
+
+//#waterway[waterway=weir] water/
+//#waterway[waterway=dam] water/
+
+$col = 0092DA
+$mod = n
+  #amenity[amenity=parking] transport/parking
+//  #transport[amenity=parking][fee=yes] transport/parking_car_paid
+  #amenity[amenity=bicycle_parking] transport/parking_bicycle
+
+$col = 0092DA
+$mod = glow
+  #amenity[leisure=slipway] transport/slipway
+
+$col = 0092DA
+$mod = n
+  #amenity[amenity=taxi] transport/taxi_rank
+  #transport[aeroway=gate] transport/airport_gate
+  #transport[aeroway=terminal] transport/airport_terminal
+  #transport[highway=bus_stop] transport/bus_stop
+  #transport[highway=ford] transport/ford
+  #transport[aeroway=helipad] transport/helicopter_pad
+
+// traffic lights
+$col = 000000
+$mod = glow
+  #transport[highway=traffic_signals] transport/traffic_lights
+  #transport[traffic_calming=bump] transport/speedbump
+  #transport[traffic_calming=hump] transport/speedbump
