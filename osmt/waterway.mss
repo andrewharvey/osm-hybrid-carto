@@ -35,7 +35,7 @@
   [zoom = 12] { line-width: 0.3; }
 }
 
-#waterway-labels {
+#waterway-labels[zoom > 13] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -44,7 +44,7 @@
   text-halo-radius: 2.0;
 }
 
-#bay-label[zoom > 12] {
+#bay-label[zoom > 13] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
@@ -56,6 +56,5 @@
   text-opacity: 0.75;
   
   [zoom>14] { text-size: 12px; text-halo-radius: 2.0; }
-  [zoom=14] { text-size: 8px; text-halo-radius: 1.0; }
-  [zoom=13] { text-size: 5px; text-halo-radius: 1.0; }
+  [zoom=14] { text-size: 10px; text-halo-radius: 1.0; }
 }
