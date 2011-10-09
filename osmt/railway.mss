@@ -53,7 +53,7 @@
     [zoom = 14] { text-size: 10; }
   }
   
-  ::dot{
+  ::dot[zoom > 11]{
     point-allow-overlap: true;
     
     [zoom > 16] {
