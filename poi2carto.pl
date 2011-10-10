@@ -42,7 +42,7 @@ while (<STDIN>) {
     next;
   }
   
-  if ($line =~ /([\#\.]\w+)\[(\w+)=\'?(\w+)\'?\]\s*(\w+)?\/?(\w+)?\s*(\w*)\s*(\w*)/) {
+  if ($line =~ /^\s*([\#\.]\w+\s*[\#\.]?\w*)\[(\w+)=\'?(\w+)\'?\]\s*(\w+)?\/?(\w+)?\s*(\w*)\s*(\w*)/) {
     my $selector = $1;
     my $key = $2;
     my $value = $3;
@@ -59,9 +59,9 @@ while (<STDIN>) {
 #    if (!defined $col) { $col = $Gcol};
 
     print "[zoom > 16] $selector\[$key='$value'\] {\n";
-    print "  [zoom = 17] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.16.png\') }\n";
-    print "  [zoom = 18] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.20.png\') }\n";
-    print "  [zoom = 19] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.24.png\') }\n";
+    print "  [zoom = 17] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.12.png\') }\n";
+    print "  [zoom = 18] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.16.png\') }\n";
+    print "  [zoom = 19] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.20.png\') }\n";
     print "  [zoom = 20] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.24.png\') }\n";
     print "  [zoom > 20] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.32.png\') }\n";
     print "}\n";
