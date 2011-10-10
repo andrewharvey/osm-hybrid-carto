@@ -274,50 +274,12 @@
     },
     {
       "geometry": "linestring",
-      "name": "highway-labels",
-      "id": "highway-labels",
+      "name": "waterway",
+      "id": "waterway",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "label",
+      "class": "",
       "Datasource": {
-        "table": "(\n  SELECT way, name, highway\n  FROM planet_osm_line\n  WHERE highway is not null\n) AS hwylabels",
-        "key_field": "",
-        "geometry_field": "way",
-        "extent": "",
-        "type": "postgis",
-        "host": "localhost",
-        "port": "5432",
-        "user": "osm",
-        "password": "osm",
-        "dbname": "osm"
-      }
-    },
-    {
-      "geometry": "point",
-      "name": "amenity",
-      "id": "amenity",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "poi",
-      "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      man_made,\n      tourism,\n      leisure,\n      barrier,\n      building,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null OR\n                    man_made IS NOT null OR\n                    tourism IS NOT null OR\n                    leisure IS NOT null OR\n                    barrier IS NOT null OR\n                    building IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      man_made,\n      tourism,\n      leisure,\n      barrier,\n      null,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_line\n    WHERE (amenity IS NOT null OR\n                    man_made IS NOT null OR\n                    tourism IS NOT null OR\n                    leisure IS NOT null OR\n                    barrier IS NOT null)\n  )\n) AS amenity_poi",
-        "key_field": "",
-        "geometry_field": "way",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "osm",
-        "host": "localhost",
-        "port": "5432",
-        "user": "osm",
-        "password": "osm"
-      }
-    },
-    {
-      "geometry": "point",
-      "name": "sport",
-      "id": "sport",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "poi",
-      "Datasource": {
-        "table": "(\n  (\n    SELECT way, sport\n    FROM planet_osm_point\n    WHERE sport IS NOT NULL\n  )\n  UNION\n  (\n    SELECT ST_Centroid(way) as way, sport\n    FROM planet_osm_polygon\n    WHERE sport IS NOT NULL\n  )\n) AS sporticon",
+        "table": "(\n  SELECT\n    way,\n    waterway,\n    tags->'intermittent' AS int\n  FROM planet_osm_line\n  WHERE waterway is not null\n) AS waterway",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -349,13 +311,184 @@
       }
     },
     {
-      "geometry": "linestring",
-      "name": "waterway",
-      "id": "waterway",
+      "geometry": "point",
+      "name": "sport",
+      "id": "sport",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "",
+      "class": "poi",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    waterway,\n    tags->'intermittent' AS int\n  FROM planet_osm_line\n  WHERE waterway is not null\n) AS waterway",
+        "table": "(\n  (\n    SELECT way, sport\n    FROM planet_osm_point\n    WHERE (sport IS NOT NULL)\n  )\n  UNION\n  (\n    SELECT ST_Centroid(way) as way, sport\n    FROM planet_osm_polygon\n    WHERE (sport IS NOT null)\n  )\n) AS sport_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "shop",
+      "id": "shop",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_point\n    WHERE\n      (shop IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_polygon\n    WHERE\n      (shop IS NOT null)\n  )\n) AS shop_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "tourism",
+      "id": "tourism",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      tourism,\n      name\n    FROM planet_osm_point\n    WHERE (tourism IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      tourism,\n      name\n    FROM planet_osm_polygon\n    WHERE (tourism IS NOT null)\n  )\n) AS tourism_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "man_made",
+      "id": "man_made",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      man_made,\n      name\n    FROM planet_osm_point\n    WHERE (man_made IN ('water_tower'))\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      man_made,\n      name\n    FROM planet_osm_polygon\n    WHERE (man_made IN ('water_tower'))\n  )\n) AS man_made_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "amenity",
+      "id": "amenity",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_polygon\n    WHERE (amenity IS NOT null)\n  )\n) AS amenity_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "leisure",
+      "id": "leisure",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      leisure,\n      name\n    FROM planet_osm_point\n    WHERE (leisure IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      leisure,\n      name\n    FROM planet_osm_polygon\n    WHERE (leisure IS NOT null)\n  )\n) AS leisure_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "aeroway",
+      "id": "aeroway",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      aeroway\n    FROM planet_osm_point\n    WHERE\n      aeroway IN ('gate', 'terminal', 'helipad')\n  ) UNION (\n    SELECT\n      ST_PointOnSurface(way) as way,\n      aeroway\n    FROM planet_osm_polygon\n    WHERE\n      aeroway IN ('terminal', 'helipad')\n  )\n) as aeroway_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "barrier",
+      "id": "barrier",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    barrier,\n    name\n  FROM planet_osm_point\n  WHERE (barrier IS NOT null)\n) AS barrier_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "highway_poi",
+      "id": "highway_poi",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "poi",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_point\n  WHERE (highway IN ('traffic_signals', 'ford', 'bus_stop'))\n) AS highway_poi",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "osm",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "addr-point",
+      "id": "addr-point",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "addr",
+      "Datasource": {
+        "table": "(\n  (\n    SELECT\n      way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_point\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n  UNION\n  (\n    SELECT\n      ST_Centroid(way) as way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_polygon\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n) as addr_point",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
@@ -403,6 +536,25 @@
         "port": "5432",
         "user": "osm",
         "password": "osm"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "highway-labels",
+      "id": "highway-labels",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "label",
+      "Datasource": {
+        "table": "(\n  SELECT way, name, highway\n  FROM planet_osm_line\n  WHERE highway is not null\n) AS hwylabels",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent": "",
+        "type": "postgis",
+        "host": "localhost",
+        "port": "5432",
+        "user": "osm",
+        "password": "osm",
+        "dbname": "osm"
       }
     },
     {
@@ -463,32 +615,13 @@
       }
     },
     {
-      "geometry": "point",
-      "name": "shop",
-      "id": "shop",
+      "geometry": "polygon",
+      "name": "amenity-label",
+      "id": "amenity-label",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "poi",
+      "class": "label",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_point\n    WHERE\n    (\n      shop IS NOT null OR\n      amenity IN ('fast_food')\n    )\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_line\n    WHERE\n    (\n      shop IS NOT null OR\n      amenity IN ('fast_food')\n    )\n  )\n) AS shoppoi",
-        "key_field": "",
-        "geometry_field": "way",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "osm",
-        "host": "localhost",
-        "port": "5432",
-        "user": "osm",
-        "password": "osm"
-      }
-    },
-    {
-      "geometry": "point",
-      "name": "addr-point",
-      "id": "addr-point",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "addr",
-      "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_point\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n  UNION\n  (\n    SELECT\n      ST_Centroid(way) as way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_polygon\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n) as addr_point",
+        "table": "(\n  SELECT\n    way,\n    name,\n    amenity\n  FROM planet_osm_polygon\n  WHERE\n  (\n    amenity IS NOT NULL AND\n    name IS NOT NULL\n  )\n) as amenitylabels",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
