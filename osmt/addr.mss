@@ -5,7 +5,7 @@
     text-fill: white;
     text-placement: interior;
     text-halo-fill: black;
-    text-halo-radius: 2.0;
+    text-halo-radius: 1.5;
   
     text-size: 12;
   }
