@@ -62,8 +62,12 @@
 }
 
 // suburb borders
+/*
+don't add label for #locality-labels[place='suburb']
+in Australia this will lead to lots of duplicates
+*/
 [zoom > 12] {
-  #locality-labels[admin_level='9'],#locality-labels[admin_level='10'],#locality-labels[place='suburb'] {
+  #locality-labels[admin_level='9'],#locality-labels[admin_level='10'] {
     text-name: "[name]";
     text-face-name: "Liberation Sans Bold";
     text-fill: black;
@@ -82,7 +86,7 @@
   }
 }
 
-[zoom > 10] #locality-labels[boundary='national_park'] {
+[zoom > 11] #locality-labels[boundary='national_park'] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Bold";
   text-fill: green;
@@ -96,6 +100,5 @@
   [zoom=14] { text-size: 16; text-halo-radius: 1.75; }
   [zoom=13] { text-size: 14; text-halo-radius: 1.5; } 
   [zoom=12] { text-size: 12; text-halo-radius: 1.0; } 
-  [zoom=11] { text-size: 10; text-halo-radius: 1.0; } 
 }
 
