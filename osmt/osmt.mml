@@ -564,7 +564,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    name\n  FROM planet_osm_polygon\n  WHERE\n    (planet_osm_polygon.leisure IN ('park') AND \n    name IS NOT NULL)\n) AS amenitylabel",
+        "table": "(\n  SELECT\n    way,\n    name,\n    way_area\n  FROM planet_osm_polygon\n  WHERE\n    (planet_osm_polygon.leisure IN ('park') AND \n    name IS NOT NULL)\n) AS amenitylabel",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",
