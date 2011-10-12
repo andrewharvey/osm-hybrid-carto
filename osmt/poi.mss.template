@@ -1,5 +1,6 @@
 $col = 0092DA
 $mod = glow
+$label = yes
   .poi#tourism[tourism=alpine_hut] accommodation
   .poi#tourism[tourism=chalet] accommodation
   .poi#tourism[tourism=camp_site] accommodation
@@ -9,6 +10,7 @@ $mod = glow
 
 $col = 000000
 $mod = glow
+$label = yes
   .poi#amenity[amenity=bench]
   .poi#amenity[amenity=courthouse] /court
   .poi#amenity[amenity=fire_station] /firestation
@@ -31,6 +33,7 @@ $mod = glow
 
 $col = 8E7409
 $mod = n
+$label = yes
   .poi#tourism[tourism=attraction] tourist/
   .poi#amenity[amenity=cinema] tourist/
   .poi#amenity[amenity=fountain] tourist/
@@ -44,8 +47,9 @@ $mod = n
   .poi#tourism[tourism=zoo] tourist/
 
 // barriers
-$col = 000000
+$col = 999999
 $mod = glow
+$label = yes
   .poi#barrier[barrier=block] /blocks
   .poi#barrier[barrier=bollard]
   .poi#barrier[barrier=cattle_grid]
@@ -64,6 +68,7 @@ $mod = glow
 // education
 $col = 734A08
 $mod = glow
+$label = yes
   .poi#amenity[amenity=college] education/
   .poi#amenity[amenity=child_care] education/nursery
   .poi#amenity[amenity=school] education/school
@@ -72,6 +77,7 @@ $mod = glow
 // healthcare
 $col = DA0092
 $mod = p
+$label = yes
   .poi#amenity[amenity=dentist] health/
   .poi#amenity[amenity=doctors] health/
   .poi#amenity[amenity=hospital] health/
@@ -82,6 +88,7 @@ $mod = p
 // sports
 $col = 000000
 $mod = glow
+$label = no
   .poi#sport[sport=archery]
   .poi#sport[sport=baseball]
   .poi#sport[sport=canoe]
@@ -111,6 +118,7 @@ $mod = glow
 // shops
 $col = AC39AC
 $mod = glow
+$label = yes
   .poi#shop[shop=alcohol] shopping/
   .poi#shop[shop=bakery] shopping/
   .poi#shop[shop=bicycle] shopping/
@@ -170,28 +178,33 @@ $mod = glow
 
 $col = 0092DA
 $mod = n
+$label = yes
   .poi#amenity[amenity=parking] transport/parking
 //  .poi#transport[amenity=parking][fee=yes] transport/parking_car_paid
   .poi#amenity[amenity=bicycle_parking] transport/parking_bicycle
 
 $col = 0092DA
 $mod = glow
+$label = yes
   .poi#leisure[leisure=slipway] transport/slipway
 
 $col = 0092DA
 $mod = n
+$label = yes
   .poi#amenity[amenity=taxi] transport/taxi_rank
 
   .poi#aeroway[aeroway=gate] transport/airport_gate
   .poi#aeroway[aeroway=terminal] transport/airport_terminal
   .poi#aeroway[aeroway=helipad] transport/helicopter_pad
 
+$label = no
   .poi#highway_poi[highway=bus_stop] transport/bus_stop
   .poi#highway_poi[highway=ford] transport/ford
 
 // traffic lights
 $col = 000000
 $mod = glow
+$label = no
   .poi#highway_poi[highway=traffic_signals] transport/traffic_lights
 //  .poi#traffic_calming[traffic_calming=bump] transport/speedbump
 //  .poi#traffic_calming[traffic_calming=hump] transport/speedbump

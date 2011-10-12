@@ -46,55 +46,58 @@
     point-file: url('/usr/share/icons/sjjb/png/education/school_secondary.glow.000000.12.png');
   }
 }*/
-
 [zoom > 16] .poi#tourism[tourism='alpine_hut'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/accommodation/alpine_hut.glow.0092DA.12.png') }
   [zoom = 18] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/alpine_hut.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/alpine_hut.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/alpine_hut.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/alpine_hut.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -105,48 +108,52 @@
     point-file: url('/usr/share/icons/sjjb/png/accommodation/chalet.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/chalet.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/chalet.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/chalet.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -157,48 +164,52 @@
     point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -209,48 +220,52 @@
     point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -261,48 +276,52 @@
     point-file: url('/usr/share/icons/sjjb/png/accommodation/hotel.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/hotel.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/hotel.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/hotel.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -313,48 +332,52 @@
     point-file: url('/usr/share/icons/sjjb/png/accommodation/motel.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/motel.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/motel.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/accommodation/motel.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -365,48 +388,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/bench.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/bench.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/bench.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/bench.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -417,48 +444,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/court.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/court.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/court.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/court.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -469,48 +500,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/firestation.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/firestation.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/firestation.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/firestation.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -521,48 +556,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/fountain.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/fountain.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/fountain.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/fountain.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -573,48 +612,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/library.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/library.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/library.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/library.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -625,48 +668,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/playground.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/playground.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/playground.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/playground.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -677,48 +724,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/police.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/police.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/police.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/police.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -729,48 +780,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_box.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_box.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_box.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_box.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -781,48 +836,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_office.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_office.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_office.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/post_office.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -833,48 +892,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/prison.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/prison.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/prison.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/prison.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -885,48 +948,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/public_building.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/public_building.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/public_building.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/public_building.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -937,48 +1004,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/recycling.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/recycling.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/recycling.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/recycling.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -989,48 +1060,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/survey_point.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/survey_point.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/survey_point.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/survey_point.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1041,48 +1116,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/telephone.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/telephone.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/telephone.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/telephone.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1093,48 +1172,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/toilets.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/toilets.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/toilets.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/toilets.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1145,48 +1228,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/town_hall.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/town_hall.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/town_hall.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/town_hall.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1197,48 +1284,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1249,48 +1340,52 @@
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/waste_bin.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1301,48 +1396,52 @@
     point-file: url('/usr/share/icons/sjjb/png/water/tower.glow.000000.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/water/tower.glow.000000.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/water/tower.glow.000000.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/water/tower.glow.000000.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #000000;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1353,48 +1452,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/attraction.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/attraction.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/attraction.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/attraction.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1405,48 +1508,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/cinema.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/cinema.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/cinema.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/cinema.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1457,48 +1564,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/fountain.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/fountain.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/fountain.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/fountain.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1509,48 +1620,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/information.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/information.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/information.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/information.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1561,48 +1676,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/memorial.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/memorial.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/memorial.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/memorial.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1613,48 +1732,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/monument.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/monument.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/monument.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/monument.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1665,48 +1788,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/museum.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/museum.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/museum.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/museum.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1717,48 +1844,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/picnic.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/picnic.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/picnic.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/picnic.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1769,48 +1900,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/theme_park.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/theme_park.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/theme_park.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/theme_park.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1821,48 +1956,52 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/view_point.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/view_point.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/view_point.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/view_point.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -1873,672 +2012,724 @@
     point-file: url('/usr/share/icons/sjjb/png/tourist/zoo.n.8E7409.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/zoo.n.8E7409.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/zoo.n.8E7409.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/tourist/zoo.n.8E7409.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #8E7409;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='block'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/blocks.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='bollard'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/bollard.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='cattle_grid'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cattle_grid.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='cycle_barrier'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/cycle_barrier.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='entrance'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/entrance.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='exit'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/exit.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='gate'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/gate.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='kissing_gate'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='lift_gate'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/lift_gate.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='steps'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/steps.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='stile'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/stile.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#barrier[barrier='toll_booth'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.000000.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.999999.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.000000.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.999999.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.000000.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.999999.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.000000.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.999999.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.000000.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/barrier/toll_booth.glow.999999.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
-      text-fill: #000000;
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #999999;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2549,48 +2740,52 @@
     point-file: url('/usr/share/icons/sjjb/png/education/college.glow.734A08.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/education/college.glow.734A08.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/college.glow.734A08.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/college.glow.734A08.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2601,48 +2796,52 @@
     point-file: url('/usr/share/icons/sjjb/png/education/nursery.glow.734A08.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/education/nursery.glow.734A08.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/nursery.glow.734A08.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/nursery.glow.734A08.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2653,48 +2852,52 @@
     point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2705,48 +2908,52 @@
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #734A08;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2757,48 +2964,52 @@
     point-file: url('/usr/share/icons/sjjb/png/health/dentist.p.DA0092.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/health/dentist.p.DA0092.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/dentist.p.DA0092.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/dentist.p.DA0092.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2809,48 +3020,52 @@
     point-file: url('/usr/share/icons/sjjb/png/health/doctors.p.DA0092.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/health/doctors.p.DA0092.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/doctors.p.DA0092.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/doctors.p.DA0092.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2861,48 +3076,52 @@
     point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2913,48 +3132,52 @@
     point-file: url('/usr/share/icons/sjjb/png/health/pharmacy.p.DA0092.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/health/pharmacy.p.DA0092.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/pharmacy.p.DA0092.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/pharmacy.p.DA0092.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -2965,48 +3188,52 @@
     point-file: url('/usr/share/icons/sjjb/png/health/veterinary.p.DA0092.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/health/veterinary.p.DA0092.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/veterinary.p.DA0092.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/veterinary.p.DA0092.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3017,250 +3244,454 @@
     point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #DA0092;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#sport[sport='archery'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/archery.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='baseball'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/baseball.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='canoe'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/canoe.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='cricket'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='cricket_nets'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/cricket.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='diving'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/diving.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='golf'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#amenity[amenity='gym'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#leisure[leisure='gym'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='gym'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gym.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='gymnasium'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/gymnasium.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='hillclimbing'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/hillclimbing.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='horse_racing'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/horse_racing.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='iceskating'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/iceskating.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='jetski'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/jetski.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='minature_golf'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/minature_golf.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='motorracing'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/motorracing.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#leisure[leisure='playground'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/playground.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='sailing'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/sailing.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='shooting'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/shooting.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='snooker'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/snooker.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='soccer'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/soccer.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='swimming'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/swimming_indoor.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='tennis'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/tennis.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#sport[sport='windsurfing'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/sport/windsurfing.glow.000000.32.png');
+  }
 }
 
 [zoom > 16] .poi#shop[shop='alcohol'] {
@@ -3269,48 +3700,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/alcohol.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/alcohol.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/alcohol.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/alcohol.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3321,48 +3756,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/bakery.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/bakery.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/bakery.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/bakery.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3373,48 +3812,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/bicycle.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/bicycle.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/bicycle.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/bicycle.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3425,48 +3868,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/book.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/book.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/book.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/book.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3477,48 +3924,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/butcher.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/butcher.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/butcher.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/butcher.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3529,48 +3980,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/car.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/car.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/car.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/car.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3581,48 +4036,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/car_repair.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/car_repair.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/car_repair.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/car_repair.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3633,48 +4092,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/clothes.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/clothes.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/clothes.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/clothes.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3685,48 +4148,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/computer.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/computer.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/computer.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/computer.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3737,48 +4204,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/confectionery.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/confectionery.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/confectionery.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/confectionery.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3789,48 +4260,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/convenience.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/convenience.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/convenience.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/convenience.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3841,48 +4316,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/copyshop.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/copyshop.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/copyshop.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/copyshop.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3893,48 +4372,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/department_store.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/department_store.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/department_store.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/department_store.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3945,48 +4428,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/diy.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/diy.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/diy.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/diy.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -3997,48 +4484,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/estateagent.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/estateagent.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/estateagent.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/estateagent.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4049,48 +4540,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/fish.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/fish.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/fish.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/fish.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4101,48 +4596,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/florist.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/florist.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/florist.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/florist.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4153,48 +4652,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/garden_centre.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/garden_centre.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/garden_centre.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/garden_centre.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4205,48 +4708,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/gift.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/gift.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/gift.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/gift.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4257,48 +4764,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/greengrocer.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/greengrocer.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/greengrocer.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/greengrocer.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4309,48 +4820,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/hairdresser.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hairdresser.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hairdresser.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hairdresser.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4361,48 +4876,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/hearing_aids.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hearing_aids.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hearing_aids.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hearing_aids.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4413,48 +4932,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/hifi.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hifi.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hifi.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/hifi.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4465,48 +4988,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/jewelry.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/jewelry.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/jewelry.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/jewelry.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4517,48 +5044,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/kiosk.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/kiosk.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/kiosk.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/kiosk.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4569,48 +5100,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/laundrette.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/laundrette.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/laundrette.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/laundrette.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4621,48 +5156,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/marketplace.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/marketplace.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/marketplace.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/marketplace.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4673,48 +5212,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/mobile_phone.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/mobile_phone.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/mobile_phone.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/mobile_phone.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4725,48 +5268,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/motorcycle.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/motorcycle.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/motorcycle.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/motorcycle.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4777,48 +5324,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/music.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/music.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/music.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/music.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4829,48 +5380,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/newspaper.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/newspaper.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/newspaper.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/newspaper.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4881,48 +5436,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/pet.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/pet.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/pet.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/pet.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4933,48 +5492,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/photo.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/photo.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/photo.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/photo.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -4985,48 +5548,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/supermarket.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/supermarket.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/supermarket.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/supermarket.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5037,48 +5604,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/tackle.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/tackle.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/tackle.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/tackle.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5089,48 +5660,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/tobacco.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/tobacco.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/tobacco.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/tobacco.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5141,48 +5716,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/toys.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/toys.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/toys.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/toys.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5193,48 +5772,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/vending_machine.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/vending_machine.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/vending_machine.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/vending_machine.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5245,48 +5828,52 @@
     point-file: url('/usr/share/icons/sjjb/png/shopping/video_rental.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/video_rental.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/video_rental.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/shopping/video_rental.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5297,48 +5884,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/bar.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/bar.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/bar.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/bar.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5349,48 +5940,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/biergarten.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/biergarten.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/biergarten.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/biergarten.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5401,48 +5996,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/cafe.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/cafe.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/cafe.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/cafe.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5453,48 +6052,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5505,48 +6108,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/drinkingtap.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5557,48 +6164,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/fastfood.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/fastfood.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/fastfood.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/fastfood.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5609,48 +6220,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/ice_cream.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/ice_cream.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/ice_cream.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/ice_cream.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5661,48 +6276,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/pizza.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/pizza.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/pizza.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/pizza.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5713,48 +6332,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/pub.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/pub.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/pub.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/pub.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5765,48 +6388,52 @@
     point-file: url('/usr/share/icons/sjjb/png/food/restaurant.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/food/restaurant.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/restaurant.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/food/restaurant.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5817,48 +6444,52 @@
     point-file: url('/usr/share/icons/sjjb/png/money/atm.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/money/atm.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/money/atm.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/money/atm.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5869,48 +6500,52 @@
     point-file: url('/usr/share/icons/sjjb/png/money/bank.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/money/bank.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/money/bank.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/money/bank.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5921,48 +6556,52 @@
     point-file: url('/usr/share/icons/sjjb/png/money/currency_exchange.glow.AC39AC.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/money/currency_exchange.glow.AC39AC.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/money/currency_exchange.glow.AC39AC.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/money/currency_exchange.glow.AC39AC.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #AC39AC;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -5973,48 +6612,52 @@
     point-file: url('/usr/share/icons/sjjb/png/transport/parking.n.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/transport/parking.n.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/parking.n.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/parking.n.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -6025,48 +6668,52 @@
     point-file: url('/usr/share/icons/sjjb/png/transport/parking_bicycle.n.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/transport/parking_bicycle.n.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/parking_bicycle.n.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/parking_bicycle.n.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -6077,48 +6724,52 @@
     point-file: url('/usr/share/icons/sjjb/png/transport/slipway.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/transport/slipway.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/slipway.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/slipway.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -6129,48 +6780,52 @@
     point-file: url('/usr/share/icons/sjjb/png/transport/taxi_rank.n.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/transport/taxi_rank.n.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/taxi_rank.n.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/taxi_rank.n.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -6181,48 +6836,52 @@
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_gate.n.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_gate.n.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_gate.n.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_gate.n.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -6233,48 +6892,52 @@
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_terminal.n.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_terminal.n.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_terminal.n.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/airport_terminal.n.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
@@ -6285,66 +6948,86 @@
     point-file: url('/usr/share/icons/sjjb/png/transport/helicopter_pad.n.0092DA.16.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 10;
-      text-dy: 13;
+      text-dy: 12;
     }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/transport/helicopter_pad.n.0092DA.20.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 11;
-      text-dy: 17;
+      text-dy: 14;
     }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/helicopter_pad.n.0092DA.24.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
       text-size: 12;
-      text-dy: 20;
+      text-dy: 18;
     }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/transport/helicopter_pad.n.0092DA.32.png');
     ::label {
       text-name: "[name]";
-      text-face-name: "Liberation Sans Regular";
+      text-face-name: "Liberation Sans Bold";
       text-fill: #0092DA;
       text-placement: point;
-      text-halo-radius: 1.0;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
       text-size: 13;
-      text-dy: 28;
+      text-dy: 20;
     }
   }
 }
 
 [zoom > 16] .poi#highway_poi[highway='bus_stop'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/bus_stop.n.0092DA.32.png');
+  }
 }
 
 [zoom > 16] .poi#highway_poi[highway='ford'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.12.png') }
-  [zoom = 18] { point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.16.png') }
-  [zoom = 19] { point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.20.png') }
-  [zoom = 20] { point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.24.png') }
-  [zoom > 20] { point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.32.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.16.png');
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.20.png');
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.24.png');
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/transport/ford.n.0092DA.32.png');
+  }
 }
 
 [zoom > 16] .poi#highway_poi[highway='traffic_signals'] {

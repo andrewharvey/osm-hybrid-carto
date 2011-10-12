@@ -16,6 +16,7 @@ my $ICON_BASE = '/usr/share/icons/sjjb/png/';
 
 my $Gmod = 'glow';
 my $Gcol = '000000';
+my $Glabel = 'yes';
 
 my $fail_count = 0;
 
@@ -38,6 +39,7 @@ while (<STDIN>) {
     switch ($variable) {
       case "mod"   { $Gmod = $value }
       case "col"   { $Gcol = $value }
+      case "label" { $Glabel = $value }
     }
     next;
   }
@@ -52,6 +54,7 @@ while (<STDIN>) {
 #    my $col = $7;
     my $mod = $Gmod;
     my $col = $Gcol;
+    my $label = $Glabel;
     
     if (!defined $icon_folder) { $icon_folder = $key};
     if (!defined $icon_file) { $icon_file = $value};
@@ -62,51 +65,63 @@ while (<STDIN>) {
     print "  [zoom = 17] { point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.12.png\') }\n";
     print "  [zoom = 18] {\n";
     print "    point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.16.png\');\n";
+    if ($label eq 'yes') {
     print "    ::label {\n";
     print "      text-name: \"[name]\";\n";
-    print "      text-face-name: \"Liberation Sans Regular\";\n";
+    print "      text-face-name: \"Liberation Sans Bold\";\n";
     print "      text-fill: #$col;\n";
     print "      text-placement: point;\n";
-    print "      text-halo-radius: 1.0;\n";
+    print "      text-wrap-width: 75;\n";
+    print "      text-halo-radius: 1.5;\n";
     print "      text-size: 10;\n";
-    print "      text-dy: 13;\n";
+    print "      text-dy: 12;\n";
     print "    }\n";
+    }
     print "  }\n";
     print "  [zoom = 19] {\n";
     print "    point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.20.png\');\n";
+    if ($label eq 'yes') {
     print "    ::label {\n";
     print "      text-name: \"[name]\";\n";
-    print "      text-face-name: \"Liberation Sans Regular\";\n";
+    print "      text-face-name: \"Liberation Sans Bold\";\n";
     print "      text-fill: #$col;\n";
     print "      text-placement: point;\n";
-    print "      text-halo-radius: 1.0;\n";
+    print "      text-wrap-width: 75;\n";
+    print "      text-halo-radius: 1.5;\n";
     print "      text-size: 11;\n";
-    print "      text-dy: 17;\n";
+    print "      text-dy: 14;\n";
     print "    }\n";
+    }
     print "  }\n";
     print "  [zoom = 20] {\n";
     print "    point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.24.png\');\n";
+    if ($label eq 'yes') {
     print "    ::label {\n";
     print "      text-name: \"[name]\";\n";
-    print "      text-face-name: \"Liberation Sans Regular\";\n";
+    print "      text-face-name: \"Liberation Sans Bold\";\n";
     print "      text-fill: #$col;\n";
     print "      text-placement: point;\n";
-    print "      text-halo-radius: 1.0;\n";
+    print "      text-wrap-width: 75;\n";
+    print "      text-halo-radius: 1.5;\n";
     print "      text-size: 12;\n";
-    print "      text-dy: 20;\n";
+    print "      text-dy: 18;\n";
     print "    }\n";
+    }
     print "  }\n";
     print "  [zoom > 20] {\n";
     print "    point-file: url(\'$ICON_BASE$icon_folder/$icon_file.$mod.$col.32.png\');\n";
+    if ($label eq 'yes') {
     print "    ::label {\n";
     print "      text-name: \"[name]\";\n";
-    print "      text-face-name: \"Liberation Sans Regular\";\n";
+    print "      text-face-name: \"Liberation Sans Bold\";\n";
     print "      text-fill: #$col;\n";
     print "      text-placement: point;\n";
-    print "      text-halo-radius: 1.0;\n";
+    print "      text-wrap-width: 100;\n";
+    print "      text-halo-radius: 1.5;\n";
     print "      text-size: 13;\n";
-    print "      text-dy: 28;\n";
+    print "      text-dy: 20;\n";
     print "    }\n";
+    }
     print "  }\n";
     print "}\n";
     print "\n";
