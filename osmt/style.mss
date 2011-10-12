@@ -79,10 +79,10 @@
 #building-label[zoom > 16] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
-  text-fill: black;
+  text-fill: white;
   text-placement: interior;
-  text-halo-fill: white;
-  text-halo-radius: 2.0;
+  text-halo-fill: black;
+  text-halo-radius: 1.0;
   text-wrap-width: 20;
   
   [zoom > 21] { text-size: 15; }
