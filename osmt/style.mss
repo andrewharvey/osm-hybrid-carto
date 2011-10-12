@@ -75,3 +75,20 @@
   [zoom = 16] { text-size: 11; }
   [zoom = 15] { text-size: 11; }
 }
+
+#building-label[zoom > 16] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: black;
+  text-placement: interior;
+  text-halo-fill: white;
+  text-halo-radius: 2.0;
+  text-wrap-width: 20;
+  
+  [zoom > 21] { text-size: 15; }
+  [zoom = 21] { text-size: 14; }
+  [zoom = 20] { text-size: 13; }
+  [zoom = 19] { text-size: 12; }
+  [zoom = 18] { text-size: 11; }
+  [zoom = 17] { text-size: 10; }
+}
