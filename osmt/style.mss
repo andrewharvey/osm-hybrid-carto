@@ -93,3 +93,32 @@
   [zoom = 18] { text-size: 11; }
   [zoom = 17] { text-size: 10; }
 }
+
+/* ferry routes */
+#ferry-route[zoom > 6][zoom < 12] {
+  line-color: white;
+  line-width: 0.7;
+  line-opacity: 0.5;
+}
+
+#ferry-route[zoom > 11] {
+  line-color: #00066f;
+  line-dasharray: 6,6;
+
+  [zoom = 12] { line-width: 0.8; }
+  [zoom = 13] { line-width: 1.0; }
+  [zoom = 14] { line-width: 1.3; }
+  [zoom = 15] { line-width: 1.6; }
+  [zoom > 15] { line-width: 2.0; }
+  
+  ::halo{
+    line-color: white;
+    line-width: 1.0;
+    line-opacity: 0.5;
+    
+    [zoom = 13] { line-width: 1.2; }
+    [zoom = 14] { line-width: 1.5; }
+    [zoom = 15] { line-width: 1.8; }
+    [zoom > 15] { line-width: 2.2; }
+  }
+}
