@@ -86,7 +86,8 @@ in Australia this will lead to lots of duplicates
   }
 }
 
-[zoom > 11] #locality-labels[boundary='national_park'] {
+/* national parks... */
+#locality-labels[boundary='national_park'][zoom > 11][way_area > 1000000] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Bold";
   text-fill: green;
@@ -101,4 +102,19 @@ in Australia this will lead to lots of duplicates
   [zoom=13] { text-size: 14; text-halo-radius: 1.5; } 
   [zoom=12] { text-size: 12; text-halo-radius: 1.0; } 
 }
+
+#locality-labels[boundary='national_park'][zoom > 13][way_area < 1000000] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Bold";
+  text-fill: green;
+  text-placement: point;
+  text-halo-fill: white;
+  text-wrap-width: 50px;
+  
+  text-opacity: 0.8;
+  
+  [zoom>14] { text-size: 20; text-halo-radius: 2.0; }
+  [zoom=14] { text-size: 16; text-halo-radius: 1.75; }
+}
+
 
