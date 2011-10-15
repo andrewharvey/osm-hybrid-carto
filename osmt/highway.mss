@@ -2,14 +2,21 @@
 @path_halo_opacity: 0.7;
 @path_halo_colour: white;
 
+
+
 /* highway labels */
+@highway_face_name: "Liberation Sans Regular";
+@highway_text_fill: white;
+@highway_halo_fill: black;
+@highway_halo_radius: 2.0;
+
 #highway-labels[highway='footway'][zoom > 14] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -25,11 +32,11 @@
 }
 #highway-labels[highway='cycleway'][zoom > 14] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -45,11 +52,11 @@
 }
 #highway-labels[highway='path'][zoom > 14] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -65,11 +72,11 @@
 }
 #highway-labels[highway='track'][zoom > 13] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -86,11 +93,11 @@
 
 #highway-labels[highway='service'][zoom > 16] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -106,11 +113,11 @@
 }
 #highway-labels[highway='residential'][zoom > 15] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -126,11 +133,11 @@
 }
 #highway-labels[highway='unclassified'][zoom > 14] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -146,11 +153,11 @@
 }
 #highway-labels[highway='tertiary'][zoom > 14] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -164,13 +171,13 @@
   [zoom = 13] { text-size: 8; }
   [zoom = 12] {text-size: 8; }
 }
-#highway-labels[highway='secondary'][zoom > 13] { 
+#highway-labels[highway='secondary'][zoom > 14] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -184,13 +191,13 @@
   [zoom = 13] { text-size: 8; }
   [zoom = 12] {text-size: 8; }
 }
-#highway-labels[highway='primary'][zoom > 12] { 
+#highway-labels[highway='primary'][zoom > 13] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -206,11 +213,11 @@
 }
 #highway-labels[highway='trunk'][zoom > 12] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -226,11 +233,11 @@
 }
 #highway-labels[highway='motorway'][zoom > 11] { 
   text-name: "[name]";
-  text-face-name: "Liberation Sans Regular";
-  text-fill: white;
+  text-face-name: @highway_face_name;
+  text-fill: @highway_text_fill;
   text-placement: line;
-  text-halo-fill: black;
-  text-halo-radius: 2.0;
+  text-halo-fill: @highway_halo_fill;
+  text-halo-radius: @highway_halo_radius;
   
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -245,7 +252,7 @@
   [zoom = 12] {text-size: 8; }
 }
 
-
+/* default style for all path, footway, track, cycleways and roads */
 .highway {
   line-color: #000000;
   line-opacity: 0.5;
@@ -255,6 +262,7 @@
   line-width: 1;
 }
 
+/* defaults for roads with cars */
 .road[zoom > 11] {
   ::oneway_arrow[oneway='yes'][zoom > 14] {
     marker-type: arrow;
@@ -272,21 +280,25 @@
   }
   
   line-color: #000000;
-  line-opacity: 0.5;
   line-join: round;
   line-cap: round;
   
   line-width: 1;
   
-  [zoom > 17] { line-width: 15; }
-  [zoom = 17] { line-width: 10; }
-  [zoom = 16] { line-width: 5; }
-  [zoom = 15] { line-width: 2.25; }
-  [zoom = 14] { line-width: 1.5; }
-  [zoom = 13] { line-width: 1; }
-  [zoom = 12] { line-width: 0.5; }
+  [zoom > 17] { line-width: 15; line-opacity: 0.5; }
+  [zoom = 17] { line-width: 10; line-opacity: 0.5; }
+  [zoom = 16] { line-width: 5; line-opacity: 0.5; }
+  [zoom = 15] { line-width: 2.25; line-opacity: 0.6; }
+  [zoom = 14] { line-width: 1.5; line-opacity: 0.7; }
+  [zoom = 13] { line-width: 1; line-opacity: 0.8; }
+  [zoom = 12] { line-width: 0.5; line-opacity: 0.8; }
   
   ::bridge[bridge='yes'] {
+    /*
+    ideally we would draw two lines outside the existing line,
+    but the current compositing method in mapnik won't allow this
+    so easily with transparency
+    
     line-color: #000000;
     line-opacity: 0.5;
     line-join: round;
@@ -299,11 +311,12 @@
     [zoom = 14] { line-width: 2; }
     [zoom = 13] { line-width: 1.5; }
     [zoom = 12] { line-width: 0.75; }
+    */
   }
   
 }
 
-.highway#footway[zoom > 9] {
+.highway#footway[zoom > 13] {
   ::halo{
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
@@ -322,10 +335,6 @@
   [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
   [zoom < 17] { line-width: 1.5; line-dasharray: 1,2 }
   
-  [footway='sidewalk']{
-    line-color: #0000FF;
-  }
-  
   [highway='steps']{
     line-cap: butt;
     
@@ -336,7 +345,7 @@
   
 }
 
-.highway#path[zoom > 9] {
+.highway#path[zoom > 12] {
   ::halo{
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
@@ -384,7 +393,7 @@
 
 }
 
-.highway#cycleway[zoom > 9] {
+.highway#cycleway[zoom > 12] {
   ::halo{
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
@@ -441,8 +450,18 @@
 }
 
 .road#residential[zoom > 11] {
-  [highway='living_street'] {
+  ::living_street[highway='living_street'][zoom > 14] {
+    line-cap: square;
+    line-dasharray: 3,3;
     line-color: #76d276;
+    
+    [zoom > 17] { line-width: 10; }
+    [zoom = 17] { line-width: 7.5; }
+    [zoom = 16] { line-width: 3.5; }
+    [zoom = 15] { line-width: 1.75; }
+    [zoom = 14] { line-width: 1; }
+    [zoom = 13] { line-width: 0.75; }
+    [zoom = 12] { line-width: 0.3; }
   }
   
   [zoom > 17] { line-width: 10; }
