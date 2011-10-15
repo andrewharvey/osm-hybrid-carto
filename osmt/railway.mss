@@ -5,10 +5,10 @@
   [zoom > 17] { line-width: 5; }
   [zoom = 17] { line-width: 3; }
   [zoom = 16] { line-width: 2.5; }
-  [zoom = 15] { line-width: 1; }
-  [zoom = 14] { line-width: 1;  line-opacity: 0.9 }
-  [zoom = 13] { line-width: 1; line-opacity: 0.9 }
-  [zoom = 12] { line-width: 0.25;  line-opacity: 0.9  }
+  [zoom = 15] { line-width: 2; }
+  [zoom = 14] { line-width: 2;  line-opacity: 0.9 }
+  [zoom = 13] { line-width: 2; line-opacity: 0.9 }
+  [zoom = 12] { line-width: 1;  line-opacity: 0.9  }
   
   /* the dotted part */
   ::track{
@@ -20,10 +20,10 @@
     [zoom > 17] { line-width: 5; }
     [zoom = 17] { line-width: 3; }
     [zoom = 16] { line-width: 2.5; }
-    [zoom = 15] { line-width: 1; }
-    [zoom = 14] { line-width: 0.75; }
-    [zoom = 13] { line-width: 0.5; }
-    [zoom = 12] { line-width: 0.25; }
+    [zoom = 15] { line-width: 2; }
+    [zoom = 14] { line-width: 2; }
+    [zoom = 13] { line-width: 2; }
+    [zoom = 12] { line-width: 1; }
   }
 }
 
@@ -53,7 +53,7 @@
     [zoom = 14] { text-size: 10; }
   }
   
-  ::dot[zoom > 11]{
+  ::dot[zoom > 12]{
     point-allow-overlap: true;
     
     [zoom > 16] {
@@ -65,7 +65,7 @@
     [zoom = 15] {
       point-file: url('/usr/share/icons/sjjb/png/transport/train_station.glow.AC39AC.16.png');
     }
-    [zoom = 14],[zoom = 13],[zoom = 12] {
+    [zoom = 14],[zoom = 13] {
       point-file: url('/usr/share/icons/osmt/station-dot.png');
       point-opacity: 0.75;
     }
