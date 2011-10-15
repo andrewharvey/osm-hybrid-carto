@@ -602,7 +602,7 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    name\n  FROM\n    planet_osm_polygon\n  WHERE\n    (\n      (planet_osm_polygon.building IS NOT NULL) AND\n      (planet_osm_polygon.amenity IS NULL) AND\n      (planet_osm_polygon.shop IS NULL) AND\n      (planet_osm_polygon.tourism IS NULL)\n    )\n) AS building_label",
+        "table": "(\n  SELECT\n    way,\n    name\n  FROM\n    planet_osm_polygon\n  WHERE\n    (\n      (planet_osm_polygon.building IS NOT NULL) AND\n      (planet_osm_polygon.amenity IS NULL) AND\n      (planet_osm_polygon.shop IS NULL) AND\n      (planet_osm_polygon.tourism IS NULL) AND\n      (name IS NOT NULL)\n    )\n) AS building_label",
         "key_field": "",
         "geometry_field": "way",
         "extent": "",

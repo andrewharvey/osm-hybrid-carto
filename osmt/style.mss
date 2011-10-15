@@ -76,6 +76,7 @@
   [zoom = 15] { text-size: 11; }
 }
 
+/* building names */
 #building-label[zoom > 16] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
