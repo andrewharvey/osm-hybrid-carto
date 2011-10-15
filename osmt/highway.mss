@@ -451,9 +451,10 @@
 
 .road#residential[zoom > 11] {
   ::living_street[highway='living_street'][zoom > 14] {
-    line-cap: square;
-    line-dasharray: 3,3;
+    line-cap: butt;
+    line-dasharray: 6,6;
     line-color: #76d276;
+    line-opacity: 0.5;
     
     [zoom > 17] { line-width: 10; }
     [zoom = 17] { line-width: 7.5; }
@@ -474,6 +475,9 @@
   
 }
 
+/* sets the colours for the road classification,
+  but also draws the default line where .road doesn't apply
+  ie. for zoom < 12 */
 .road#unclassified{
 }
 
@@ -483,16 +487,20 @@
 
 .road#secondary{
   line-color: #d46833;
+  [zoom = 12] { line-width: 1.0}
 }
 
 .road#primary{
   line-color: #cc3737;
+  [zoom = 12] { line-width: 1.5}
 }
 
 .road#trunk{
   line-color: #243a7a;
+  [zoom = 12] { line-width: 1.2}
 }
 
 .road#motorway{
   line-color: #7a2424;
+  [zoom = 12] { line-width: 2.0}
 }
