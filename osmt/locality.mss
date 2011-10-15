@@ -56,9 +56,10 @@
   
   text-opacity: 0.8;
   
-  [zoom>14] { text-size: 23px; }
-  [zoom=14] { text-size: 18px; }
-  [zoom<13] { text-size: 15px; }
+  [zoom > 14] { text-size: 30px; }
+  [zoom = 14] { text-size: 18px; }
+  [zoom = 13] { text-size: 17px }
+  [zoom < 13] { text-size: 16px; }
 }
 
 // suburb borders
