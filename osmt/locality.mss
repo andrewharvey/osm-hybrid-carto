@@ -82,7 +82,7 @@ in Australia this will lead to lots of duplicates
     
     [zoom>14] { text-size: 20; text-halo-radius: 2.0; }
     [zoom=14] { text-size: 12; text-halo-radius: 1.0; }
-    [zoom=13] { text-size: 8; text-halo-radius: 1.0; }
+    [zoom=13] { text-size: 10; text-halo-radius: 1.0; text-transform: none; }
   }
 }
 
