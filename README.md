@@ -16,15 +16,15 @@ license if you publish map images made using this stylesheet.
 
 Configuration
 =============
-Run ./configure.py to configure osmt/osmt.mml with your PostgreSQL configuration
-parameters. Run ./configure.py --help for syntax.
+Run `./configure.py` to configure `osmt/osmt.mml` with your PostgreSQL configuration
+parameters. Run `./configure.py --help` for syntax.
 
 After this you can compile the stylesheet to a Mapnik2 XML stylesheet using
-carto osmt/osmt.mml > osmt.xml
+`carto osmt/osmt.mml > osmt.xml`
 
 Symbols
 =============
-The contents of the symbols directory are referenced as /usr/share/icons/osmt/
+The contents of the symbols directory are referenced as `/usr/share/icons/osmt/`
 in the stylesheet.
 
 The SJJB Map Icons referenced can installed onto the system using the Debian
