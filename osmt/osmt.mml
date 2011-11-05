@@ -14,7 +14,6 @@
   "interactivity": false,
   "minzoom": 0,
   "maxzoom": 24,
-  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss",
     "highway.mss",
@@ -29,7 +28,6 @@
       "geometry": "polygon",
       "name": "landuse",
       "id": "landuse",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "landuse",
       "Datasource": {
         "table": "(\n SELECT\n   way,\n   landuse\n FROM\n   planet_osm_polygon\n WHERE\n   landuse IN ('military')\n) AS landuse",
@@ -42,7 +40,6 @@
       "geometry": "linestring",
       "name": "footway",
       "id": "footway",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "highway",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    highway,\n    access,\n    bridge,\n    tunnel,\n    name,\n    tags->'footway' as footway,\n    tags->'sidewalk' as sidewalk\n  FROM planet_osm_line\n  WHERE\n    highway in ('footway', 'steps')\n) AS highway",
@@ -55,7 +52,6 @@
       "geometry": "linestring",
       "name": "path",
       "id": "path",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "highway",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    highway,\n    access,\n    bridge,\n    tunnel,\n    name\n  FROM planet_osm_line\n  WHERE\n    highway in ('path')\n) AS path",
@@ -68,7 +64,6 @@
       "geometry": "linestring",
       "name": "cycleway",
       "id": "cycleway",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "highway",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    highway,\n    access,\n    bridge,\n    tunnel,\n    name,\n    tags->'cycleway' as cycleway\n  FROM planet_osm_line\n  WHERE\n    highway in ('cycleway')\n) AS cycleway",
@@ -81,7 +76,6 @@
       "geometry": "linestring",
       "name": "track",
       "id": "track",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "highway",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    highway,\n    tracktype,\n    tags->'surface' as surface,\n    access,\n    bridge,\n    tunnel,\n    name\n  FROM planet_osm_line\n  WHERE\n    highway in ('track')\n) AS track",
@@ -94,7 +88,6 @@
       "geometry": "linestring",
       "name": "service",
       "id": "service",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    highway,\n    bridge,\n    tunnel,\n    oneway,\n    service\n  FROM planet_osm_line\n  WHERE highway in ('service')\n) AS service_hwy",
@@ -107,7 +100,6 @@
       "geometry": "linestring",
       "name": "residential",
       "id": "residential",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('residential', 'living_street')\n) AS residential_hwy",
@@ -120,7 +112,6 @@
       "geometry": "linestring",
       "name": "unclassified",
       "id": "unclassified",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('unclassified')\n) AS unclassified_hwy",
@@ -133,7 +124,6 @@
       "geometry": "linestring",
       "name": "tertiary",
       "id": "tertiary",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('tertiary')\n) AS tertiary_hwy",
@@ -146,7 +136,6 @@
       "geometry": "linestring",
       "name": "secondary",
       "id": "secondary",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": " (\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('secondary')\n) AS secondary_hwy",
@@ -159,7 +148,6 @@
       "geometry": "linestring",
       "name": "primary",
       "id": "primary",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('primary', 'primary_link')\n) AS primary_hwy",
@@ -172,7 +160,6 @@
       "geometry": "linestring",
       "name": "trunk",
       "id": "trunk",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('trunk', 'trunk_link')\n) AS trunk_hwy",
@@ -185,7 +172,6 @@
       "geometry": "linestring",
       "name": "motorway",
       "id": "motorway",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "road",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('motorway', 'motorway_link')\n) AS motorway_hwy",
@@ -198,7 +184,6 @@
       "geometry": "linestring",
       "name": "waterway",
       "id": "waterway",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    waterway,\n    tags->'intermittent' AS int\n  FROM planet_osm_line\n  WHERE waterway is not null\n) AS waterway",
@@ -211,7 +196,6 @@
       "geometry": "linestring",
       "name": "ferry-route",
       "id": "ferry-route",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "route",
       "Datasource": {
         "table": "(\n  SELECT\n    way\n  FROM\n    planet_osm_line\n  WHERE\n    route = 'ferry'\n) as ferry_route",
@@ -224,7 +208,6 @@
       "geometry": "linestring",
       "name": "railway-line",
       "id": "railway-line",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    railway\n  FROM planet_osm_line\n  WHERE railway in ('rail', 'tram', 'light_rail', 'monorail')\n) AS railway_line",
@@ -237,7 +220,6 @@
       "geometry": "point",
       "name": "sport",
       "id": "sport",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  (\n    SELECT way, sport\n    FROM planet_osm_point\n    WHERE (sport IS NOT NULL)\n  )\n  UNION\n  (\n    SELECT ST_Centroid(way) as way, sport\n    FROM planet_osm_polygon\n    WHERE (sport IS NOT null)\n  )\n) AS sport_poi",
@@ -250,7 +232,6 @@
       "geometry": "point",
       "name": "shop",
       "id": "shop",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  (\n    SELECT\n      way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_point\n    WHERE\n      (shop IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_polygon\n    WHERE\n      (shop IS NOT null)\n  )\n) AS shop_poi",
@@ -263,7 +244,6 @@
       "geometry": "point",
       "name": "tourism",
       "id": "tourism",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  (\n    SELECT\n      way,\n      tourism,\n      name\n    FROM planet_osm_point\n    WHERE (tourism IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      tourism,\n      name\n    FROM planet_osm_polygon\n    WHERE (tourism IS NOT null)\n  )\n) AS tourism_poi",
@@ -276,7 +256,6 @@
       "geometry": "point",
       "name": "man_made",
       "id": "man_made",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  (\n    SELECT\n      way,\n      man_made,\n      name\n    FROM planet_osm_point\n    WHERE (man_made IN ('water_tower'))\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      man_made,\n      name\n    FROM planet_osm_polygon\n    WHERE (man_made IN ('water_tower'))\n  )\n) AS man_made_poi",
@@ -289,7 +268,6 @@
       "geometry": "point",
       "name": "amenity",
       "id": "amenity",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_polygon\n    WHERE (amenity IS NOT null)\n  )\n) AS amenity_poi",
@@ -302,7 +280,6 @@
       "geometry": "point",
       "name": "leisure",
       "id": "leisure",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  (\n    SELECT\n      way,\n      leisure,\n      name\n    FROM planet_osm_point\n    WHERE (leisure IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      leisure,\n      name\n    FROM planet_osm_polygon\n    WHERE (leisure IS NOT null)\n  )\n) AS leisure_poi",
@@ -315,7 +292,6 @@
       "geometry": "point",
       "name": "aeroway",
       "id": "aeroway",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  (\n    SELECT\n      way,\n      aeroway,\n      name\n    FROM planet_osm_point\n    WHERE\n      aeroway IN ('gate', 'terminal', 'helipad')\n  ) UNION (\n    SELECT\n      ST_PointOnSurface(way) as way,\n      aeroway,\n      name\n    FROM planet_osm_polygon\n    WHERE\n      aeroway IN ('terminal', 'helipad')\n  )\n) as aeroway_poi",
@@ -328,7 +304,6 @@
       "geometry": "point",
       "name": "barrier",
       "id": "barrier",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    barrier,\n    name\n  FROM planet_osm_point\n  WHERE (barrier IS NOT null)\n) AS barrier_poi",
@@ -341,7 +316,6 @@
       "geometry": "point",
       "name": "highway_poi",
       "id": "highway_poi",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "poi",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    highway\n  FROM planet_osm_point\n  WHERE (highway IN ('traffic_signals', 'ford', 'bus_stop'))\n) AS highway_poi",
@@ -354,7 +328,6 @@
       "geometry": "point",
       "name": "addr-point",
       "id": "addr-point",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "addr",
       "Datasource": {
         "table": "(\n  (\n    SELECT\n      way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_point\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n  UNION\n  (\n    SELECT\n      ST_Centroid(way) as way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_polygon\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n) as addr_point",
@@ -367,7 +340,6 @@
       "geometry": "linestring",
       "name": "waterway-labels",
       "id": "waterway-labels",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT way, name, waterway\n  FROM planet_osm_line\n  WHERE waterway is not null\n) AS waterwaylabels",
@@ -380,7 +352,6 @@
       "geometry": "point",
       "name": "bay-label",
       "id": "bay-label",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT way, name\n  FROM planet_osm_point\n  WHERE planet_osm_point.natural IN ('bay')\n) AS baylabels",
@@ -393,7 +364,6 @@
       "geometry": "linestring",
       "name": "highway-labels",
       "id": "highway-labels",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT way, name, highway\n  FROM planet_osm_line\n  WHERE highway is not null\n) AS hwylabels",
@@ -406,7 +376,6 @@
       "geometry": "polygon",
       "name": "park-labels",
       "id": "park-labels",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    name,\n    way_area\n  FROM planet_osm_polygon\n  WHERE\n    (planet_osm_polygon.leisure IN ('park') AND \n    name IS NOT NULL)\n) AS amenitylabel",
@@ -419,7 +388,6 @@
       "geometry": "point",
       "name": "railway-station",
       "id": "railway-station",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT way, name\n  FROM planet_osm_point\n  WHERE\n    (planet_osm_point.railway IN ('station') AND\n    name IS NOT NULL)\n) AS railwaystation",
@@ -432,7 +400,6 @@
       "geometry": "polygon",
       "name": "building-label",
       "id": "building-label",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    name\n  FROM\n    planet_osm_polygon\n  WHERE\n    (\n      (planet_osm_polygon.building IS NOT NULL) AND\n      (planet_osm_polygon.amenity IS NULL) AND\n      (planet_osm_polygon.shop IS NULL) AND\n      (planet_osm_polygon.tourism IS NULL) AND\n      (name IS NOT NULL)\n    )\n) AS building_label",
@@ -445,7 +412,6 @@
       "geometry": "polygon",
       "name": "amenity-label",
       "id": "amenity-label",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    name,\n    amenity\n  FROM planet_osm_polygon\n  WHERE\n  (\n    amenity IS NOT NULL AND\n    name IS NOT NULL\n  )\n) as amenitylabels",
@@ -458,7 +424,6 @@
       "geometry": "point",
       "name": "locality-labels",
       "id": "locality-labels",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "label",
       "Datasource": {
         "table": "(\n  (\n  SELECT\n    ST_Centroid(way) as way,\n    name,\n    boundary,\n    admin_level,\n    place,\n    way_area\n  FROM planet_osm_polygon\n  WHERE (\n    (boundary in ('administrative', 'national_park') OR\n    place IS NOT NULL) AND\n    (name IS NOT NULL)\n    )\n  ) UNION (\n  SELECT\n    way,\n    name,\n    null,\n    null,\n    place,\n    null\n  FROM planet_osm_point\n  WHERE (\n    (place IS NOT NULL) AND\n    (name IS NOT NULL))\n  )\n) AS localitylabels",

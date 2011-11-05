@@ -46,6 +46,7 @@ parser.add_argument('--port', default='5432')
 parser.add_argument('--dbname', default='osm')
 parser.add_argument('--user', default='osm')
 parser.add_argument('--password', default='osm')
+parser.add_argument('--srs', default='+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over')
 
 # Increase performance if you are only rendering a particular area by
 # specifying a bounding box to restrict queries. Format is "XMIN,YMIN,XMAX,YMAX" in the
@@ -73,6 +74,7 @@ with open(mml, 'w') as f:
     layer["Datasource"]["user"] = args.user
     layer["Datasource"]["password"] = args.password
     layer["Datasource"]["extent"] = args.extent
+    layer["srs"] = args.srs
   f.write(json.dumps(newf, indent=2))
 f.closed
 
