@@ -4,6 +4,8 @@ OSMT is an [OpenStreetMap](http://www.openstreetmap.org/) stylesheet written in
 [carto](https://github.com/mapbox/carto) for OSM data. It is designed as an
 overlay to be shown on top of satellite or aerial imagery.
 
+I have [a live demo of this map stylesheet here](http://173.230.151.169/osmt.html).
+
 License
 =============
 OSM Hybrid Carto Stylesheet (c) by Andrew Harvey `<andrew.harvey4@gmail.com>`
@@ -42,7 +44,3 @@ The SJJB Map Icons referenced can be installed onto the system using the Debian
 package from http://anonscm.debian.org/gitweb/?p=pkg-osm/sjjb-map-icons.git or
 extracting the PNG package from http://www.sjjb.co.uk/mapicons/downloads into
 same system location.
-
-Live Demo
-=============
-I have [a live demo of this style here](http://173.230.151.169/osmt.html).
