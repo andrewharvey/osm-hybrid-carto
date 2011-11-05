@@ -10,6 +10,17 @@
 @highway_halo_fill: black;
 @highway_halo_radius: 2.0;
 
+/*
+  service      black
+  residential  black
+  unclassified black
+  tertiary     yellow
+  secondary    orange
+  primary      red
+  trunk        blue
+  motorway     dark red
+*/
+
 #highway-labels[highway='footway'][zoom > 14] { 
   text-name: "[name]";
   text-face-name: @highway_face_name;
@@ -253,7 +264,7 @@
 }
 
 /* default style for all path, footway, track, cycleways and roads */
-.highway {
+.highway[zoom > 12] {
   line-color: #000000;
   line-opacity: 0.5;
   line-join: round;
@@ -465,7 +476,7 @@
 .road#unclassified{
 }
 
-.road#tertiary{
+.road#tertiary[zoom > 11]{
   line-color: #faf555;
 }
 
