@@ -12,9 +12,9 @@
   text-line-spacing: 6px;
 
   text-opacity: 0.8;
-  [zoom = 2] { text-size: 25; }
-  [zoom = 3] { text-size: 25; }
-  [zoom = 4] { text-size: 25; }
+  [zoom = 2] { text-size: 18; }
+  [zoom = 3] { text-size: 20; }
+  [zoom = 4] { text-size: 22; }
   [zoom = 5] { text-size: 25; }
 }
 
@@ -32,9 +32,9 @@
   text-line-spacing: 6px;
 
   text-opacity: 0.8;
-  [zoom = 4] { text-size: 25; }
-  [zoom = 5] { text-size: 25; }
-  [zoom = 6] { text-size: 25; }
+  [zoom = 4] { text-size: 14; }
+  [zoom = 5] { text-size: 16; }
+  [zoom = 6] { text-size: 18; }
 }
 
 // council/LGA borders
@@ -58,8 +58,20 @@
 
   [zoom > 14] { text-size: 30px; }
   [zoom = 14] { text-size: 18px; }
-  [zoom = 13] { text-size: 17px }
-  [zoom < 13] { text-size: 16px; }
+  [zoom = 13] { text-size: 17px; }
+  [zoom < 13][zoom > 7] { text-size: 16px; }
+  [zoom = 7 ] {
+    text-size: 12px;
+
+    text-placement-type: simple;
+    text-placements: "N,S,10,8";
+  }
+  [zoom < 7 ] {
+    text-size: 10px;
+
+    text-placement-type: simple;
+    text-placements: "N,S,8";
+  }
 }
 
 // suburb borders
