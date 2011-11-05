@@ -122,3 +122,13 @@
     [zoom > 15] { line-width: 2.2; }
   }
 }
+
+#landuse[landuse='military'][zoom > 10] {
+  ::outline {
+    line-color: #f55000;
+    line-width: 3;
+    line-opacity: 0.329;
+  }
+
+  polygon-pattern-file: url('/usr/share/icons/osmt/military-pattern.png');
+}
