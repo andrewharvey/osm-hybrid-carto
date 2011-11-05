@@ -1,8 +1,8 @@
-
-@path_halo_opacity: 0.7;
+/* paths (footway, cycleway, track) are dotted, the halo is behind the
+   dots */
+@path_halo_opacity: 0.3;
 @path_halo_colour: white;
-
-
+@path_dot_opacity: 1.0;
 
 /* highway labels */
 @highway_face_name: "Liberation Sans Regular";
@@ -328,12 +328,13 @@
   }
   
   line-color: #FF0000;
-  line-dasharray: 2,2;
+  line-opacity: @path_dot_opacity;
   
   [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
   [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
   [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
-  [zoom < 17] { line-width: 1.5; line-dasharray: 1,2 }
+  [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
+  [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
   
   [highway='steps']{
     line-cap: butt;
@@ -356,13 +357,13 @@
     [zoom < 17] { line-width: 2 }
   }
   line-color: #000000;
-  line-dasharray: 2,2;
-  line-opacity: 1.0;
+  line-opacity: @path_dot_opacity;
   
   [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
   [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
   [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
-  [zoom < 17] { line-width: 1.5; line-dasharray: 1,2 }
+  [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
+  [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
   
 }
 
@@ -381,7 +382,7 @@
   }
   
   line-color: #6d4f15;
-  line-opacity: 1.0;
+  line-opacity: @path_dot_opacity;
   
   [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
   [zoom = 18] { line-width: 5  ; line-dasharray: 3,4 }
@@ -404,14 +405,14 @@
     [zoom < 17] { line-width: 2 }
   }
   
-  line-color: #0900ff;
-  line-dasharray: 2,2;
-  line-opacity: 1.0;
-  
+  line-color: #0000ff;
+  line-opacity: @path_dot_opacity;
+
   [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
   [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
   [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
-  [zoom < 17] { line-width: 1.5; line-dasharray: 1,2 }
+  [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
+  [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
 
 }
 
