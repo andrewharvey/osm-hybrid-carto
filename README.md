@@ -27,8 +27,10 @@ Symbols
 The contents of the symbols directory are referenced as `/usr/share/icons/osmt/`
 in the stylesheet.
 
-The SJJB Map Icons referenced can installed onto the system using the Debian
-package from http://anonscm.debian.org/gitweb/?p=pkg-osm/sjjb-map-icons.git
+The SJJB Map Icons referenced can be installed onto the system using the Debian
+package from http://anonscm.debian.org/gitweb/?p=pkg-osm/sjjb-map-icons.git or
+extracting the PNG package from http://www.sjjb.co.uk/mapicons/downloads into
+same system location.
 
 Live Demo
 =============
