@@ -476,26 +476,26 @@
 .road#unclassified{
 }
 
-.road#tertiary[zoom > 11]{
+.road#tertiary[zoom > 11] {
   line-color: #faf555;
 }
 
-.road#secondary{
+.road#secondary[zoom > 7] {
   line-color: #d46833;
   [zoom = 12] { line-width: 1.0}
 }
 
-.road#primary{
+.road#primary[zoom > 6] {
   line-color: #cc3737;
   [zoom = 12] { line-width: 1.5}
 }
 
-.road#trunk{
+.road#trunk[zoom > 5] {
   line-color: #243a7a;
   [zoom = 12] { line-width: 1.2}
 }
 
-.road#motorway{
+.road#motorway[zoom > 4] {
   line-color: #7a2424;
   [zoom = 12] { line-width: 2.0}
 }
