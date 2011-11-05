@@ -16,7 +16,7 @@
   ::icon{
     point-file: url('/usr/share/icons/sjjb/png/education/school.glow.000000.12.png');
   }
-  
+
   ::label[zoom > 14] {
     text-name: "[name]";
     text-face-name: "Liberation Sans Regular";
@@ -27,7 +27,7 @@
     text-wrap-width: 20;
     text-vertical-alignment: bottom;
     text-opacity: 0.75;
-    
+
     [zoom > 21] { text-size: 30; }
     [zoom = 21] { text-size: 25; }
     [zoom = 20] { text-size: 20; }
@@ -37,11 +37,11 @@
     [zoom = 16] { text-size: 11; }
     [zoom = 15] { text-size: 11; }
   }
-  
+
   #amenity[amenity='school'][school_level='primary'] {
     point-file: url('/usr/share/icons/sjjb/png/education/school_primary.glow.000000.12.png');
   }
-  
+
   #amenity[amenity='school'][school_level='secondary'] {
     point-file: url('/usr/share/icons/sjjb/png/education/school_secondary.glow.000000.12.png');
   }

@@ -7,7 +7,7 @@
     line-opacity: @way_opacity;
     line-color: @water;
     line-width: 2;
-    
+
     [zoom > 17] { line-width: 5; }
     [zoom = 17] { line-width: 3.5; }
     [zoom = 16] { line-width: 2.5; }
@@ -15,7 +15,7 @@
     [zoom = 14] { line-width: 0.75; }
     [zoom = 13] { line-width: 0.5; }
     [zoom = 12] { line-width: 0.25; }
-    
+
     #waterway[int='yes'] {
       line-dasharray: 2,4;
     }
@@ -25,7 +25,7 @@
 #waterway[waterway='river'][zoom > 11] {
   line-opacity: @way_opacity;
   line-color: @water;
-  
+
   [zoom > 17] { line-width: 10; }
   [zoom = 17] { line-width: 7.5; }
   [zoom = 16] { line-width: 3.5; }
@@ -54,7 +54,7 @@
   text-transform: uppercase;
   text-wrap-width: 50px;
   text-opacity: 0.75;
-  
+
   [zoom>14] { text-size: 12px; text-halo-radius: 2.0; }
   [zoom=14] { text-size: 10px; text-halo-radius: 1.0; }
 }

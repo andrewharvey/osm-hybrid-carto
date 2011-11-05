@@ -30,7 +30,7 @@ $label = yes
   .poi#amenity[amenity=waste_basket] /waste_bin
   .poi#amenity[amenity=waste_disposal] /waste_bin
   .poi#man_made[man_made=water_tower] water/tower
-  
+
   .poi#natural[natural=cave_entrance] poi/cave
   .poi#natural[natural=peak] poi/
 

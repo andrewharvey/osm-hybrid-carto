@@ -10,7 +10,7 @@
   text-transform: uppercase;
   text-wrap-width: 50px;
   text-line-spacing: 6px;
-  
+
   text-opacity: 0.8;
   [zoom = 2] { text-size: 25; }
   [zoom = 3] { text-size: 25; }
@@ -30,7 +30,7 @@
   text-transform: uppercase;
   text-wrap-width: 50px;
   text-line-spacing: 6px;
-  
+
   text-opacity: 0.8;
   [zoom = 4] { text-size: 25; }
   [zoom = 5] { text-size: 25; }
@@ -53,9 +53,9 @@
   text-transform: uppercase;
   text-wrap-width: 50px;
   text-line-spacing: 6px;
-  
+
   text-opacity: 0.8;
-  
+
   [zoom > 14] { text-size: 30px; }
   [zoom = 14] { text-size: 18px; }
   [zoom = 13] { text-size: 17px }
@@ -78,9 +78,9 @@ in Australia this will lead to lots of duplicates
     text-transform: uppercase;
     text-wrap-width: 50px;
     text-line-spacing: 6px;
-    
+
     text-opacity: 0.8;
-    
+
     [zoom>14] { text-size: 20; text-halo-radius: 2.0; }
     [zoom=14] { text-size: 12; text-halo-radius: 1.0; }
     [zoom=13] { text-size: 10; text-halo-radius: 1.0; text-transform: none; }
@@ -95,13 +95,13 @@ in Australia this will lead to lots of duplicates
   text-placement: point;
   text-halo-fill: white;
   text-wrap-width: 50px;
-  
+
   text-opacity: 0.8;
-  
+
   [zoom>14] { text-size: 20; text-halo-radius: 2.0; }
   [zoom=14] { text-size: 16; text-halo-radius: 1.75; }
-  [zoom=13] { text-size: 14; text-halo-radius: 1.5; } 
-  [zoom=12] { text-size: 12; text-halo-radius: 1.0; } 
+  [zoom=13] { text-size: 14; text-halo-radius: 1.5; }
+  [zoom=12] { text-size: 12; text-halo-radius: 1.0; }
 }
 
 #locality-labels[boundary='national_park'][zoom > 13][way_area < 1000000] {
@@ -111,9 +111,9 @@ in Australia this will lead to lots of duplicates
   text-placement: point;
   text-halo-fill: white;
   text-wrap-width: 50px;
-  
+
   text-opacity: 0.8;
-  
+
   [zoom>14] { text-size: 20; text-halo-radius: 2.0; }
   [zoom=14] { text-size: 16; text-halo-radius: 1.75; }
 }

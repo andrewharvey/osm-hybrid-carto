@@ -6,7 +6,7 @@
     text-placement: interior;
     text-halo-fill: black;
     text-halo-radius: 1.5;
-  
+
     text-size: 12;
   }
 }
