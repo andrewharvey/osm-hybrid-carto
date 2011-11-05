@@ -30,6 +30,9 @@ $label = yes
   .poi#amenity[amenity=waste_basket] /waste_bin
   .poi#amenity[amenity=waste_disposal] /waste_bin
   .poi#man_made[man_made=water_tower] water/tower
+  
+  .poi#natural[natural=cave_entrance] poi/cave
+  .poi#natural[natural=peak] poi/
 
 $col = 8E7409
 $mod = n
@@ -208,3 +211,6 @@ $label = no
   .poi#highway_poi[highway=traffic_signals] transport/traffic_lights
 //  .poi#traffic_calming[traffic_calming=bump] transport/speedbump
 //  .poi#traffic_calming[traffic_calming=hump] transport/speedbump
+
+//comms tower
+//power tower

@@ -1446,6 +1446,118 @@
   }
 }
 
+[zoom > 16] .poi#natural[natural='cave_entrance'] {
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/poi/cave.glow.000000.12.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/cave.glow.000000.16.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
+      text-size: 10;
+      text-dy: 12;
+    }
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/cave.glow.000000.20.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
+      text-size: 11;
+      text-dy: 14;
+    }
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/cave.glow.000000.24.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
+      text-size: 12;
+      text-dy: 18;
+    }
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/cave.glow.000000.32.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
+      text-size: 13;
+      text-dy: 20;
+    }
+  }
+}
+
+[zoom > 16] .poi#natural[natural='peak'] {
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/poi/peak.glow.000000.12.png') }
+  [zoom = 18] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/peak.glow.000000.16.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
+      text-size: 10;
+      text-dy: 12;
+    }
+  }
+  [zoom = 19] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/peak.glow.000000.20.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
+      text-size: 11;
+      text-dy: 14;
+    }
+  }
+  [zoom = 20] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/peak.glow.000000.24.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
+      text-size: 12;
+      text-dy: 18;
+    }
+  }
+  [zoom > 20] {
+    point-file: url('/usr/share/icons/sjjb/png/poi/peak.glow.000000.32.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #000000;
+      text-placement: point;
+      text-wrap-width: 100;
+      text-halo-radius: 1.5;
+      text-size: 13;
+      text-dy: 20;
+    }
+  }
+}
+
 [zoom > 16] .poi#tourism[tourism='attraction'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/tourist/attraction.n.8E7409.12.png') }
   [zoom = 18] {
