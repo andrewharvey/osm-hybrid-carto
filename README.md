@@ -1,3 +1,9 @@
+About
+=============
+OSMT is an [OpenStreetMap](http://www.openstreetmap.org/) stylesheet written in
+[carto](https://github.com/mapbox/carto) for OSM data. It is designed as an
+overlay to be shown on top of satellite or aerial imagery.
+
 License
 =============
 OSM Hybrid Carto Stylesheet (c) by Andrew Harvey `<andrew.harvey4@gmail.com>`
@@ -16,11 +22,16 @@ license if you publish map images made using this stylesheet.
 
 Configuration
 =============
-Run `./configure.py` to configure `osmt/osmt.mml` with your PostgreSQL configuration
-parameters. Run `./configure.py --help` for syntax.
+You need to run `./configure.py` first to configure `osmt/osmt.mml` with your
+PostgreSQL connection parameters. Run `./configure.py --help` for syntax.
 
 After this you can compile the stylesheet to a Mapnik2 XML stylesheet using
 `carto osmt/osmt.mml > osmt.xml`
+
+You will also need to have some OSM data loaded into PostgreSQL using
+[osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql) with the `--hstore`
+option. A recent [`default.style`](http://svn.openstreetmap.org/applications/utils/export/osm2pgsql/default.style)
+shipped with osm2pgsql should be sufficient.
 
 Symbols
 =============
