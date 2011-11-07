@@ -1,3 +1,5 @@
+@private_road_colour: #c02c34;
+
 /* paths (footway, cycleway, track) are dotted, the halo is behind the
    dots */
 @path_halo_opacity: 0.3;
@@ -442,6 +444,21 @@
     [zoom = 16] { line-width: 1.25; }
     [zoom = 15] { line-width: 0.25; }
   }
+  
+  ::private[access='private'],[access='no'],[access='permissive'],[access='customer'],[access='delivery'] {
+    line-cap: butt;
+    line-dasharray: 6,6;
+    line-color: @private_road_colour;
+    line-opacity: 0.5;
+
+    [zoom > 17] { line-width: 7.5; }
+    [zoom = 17] { line-width: 5; }
+    [zoom = 16] { line-width: 2.5; }
+    [zoom = 15] { line-width: 1; }
+    [zoom = 14] { line-width: 0.75; }
+    [zoom = 13] { line-width: 0.5; }
+    [zoom = 12] { line-width: 0.25; }
+  }
 }
 
 .road#residential[zoom > 11] {
@@ -449,6 +466,21 @@
     line-cap: butt;
     line-dasharray: 6,6;
     line-color: #76d276;
+    line-opacity: 0.5;
+
+    [zoom > 17] { line-width: 10; }
+    [zoom = 17] { line-width: 7.5; }
+    [zoom = 16] { line-width: 3.5; }
+    [zoom = 15] { line-width: 1.75; }
+    [zoom = 14] { line-width: 1; }
+    [zoom = 13] { line-width: 0.75; }
+    [zoom = 12] { line-width: 0.3; }
+  }
+  
+  ::private[access='private'],[access='no'],[access='permissive'],[access='customer'],[access='delivery'] {
+    line-cap: butt;
+    line-dasharray: 6,6;
+    line-color: @private_road_colour;
     line-opacity: 0.5;
 
     [zoom > 17] { line-width: 10; }

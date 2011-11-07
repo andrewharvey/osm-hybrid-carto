@@ -90,7 +90,7 @@
       "id": "service",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    highway,\n    bridge,\n    tunnel,\n    oneway,\n    service\n  FROM planet_osm_line\n  WHERE highway in ('service')\n) AS service_hwy",
+        "table": "(\n  SELECT\n    way,\n    highway,\n    bridge,\n    tunnel,\n    oneway,\n    access,\n    service\n  FROM planet_osm_line\n  WHERE highway in ('service')\n) AS service_hwy",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -102,7 +102,7 @@
       "id": "residential",
       "class": "road",
       "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('residential', 'living_street')\n) AS residential_hwy",
+        "table": "(\n  SELECT\n    way,\n    bridge,\n    tunnel,\n    oneway,\n    access,\n    highway\n  FROM planet_osm_line\n  WHERE highway in ('residential', 'living_street')\n) AS residential_hwy",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
