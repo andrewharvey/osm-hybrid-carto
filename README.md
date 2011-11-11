@@ -44,3 +44,13 @@ The SJJB Map Icons referenced can be installed onto the system using the Debian
 package from http://anonscm.debian.org/gitweb/?p=pkg-osm/sjjb-map-icons.git or
 extracting the PNG package from http://www.sjjb.co.uk/mapicons/downloads into
 same system location.
+
+Fonts
+=============
+I encountered problems with fonts when using TileLite, TileCache and TileStache.
+
+This is probably because the Debain build of Mapnik uses a font path of
+`/usr/share/fonts/truetype/ttf-dejavu`. You can run `mapnik-config --fonts` to
+check the current path. I found setting this to `/usr/share/fonts/truetype`
+worked, either by changing this at Mapnik build time or by editing
+`/usr/lib/python2.6/dist-packages/mapnik2/paths.py`.
