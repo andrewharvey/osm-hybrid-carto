@@ -159,9 +159,9 @@
 }
 
 [zoom > 16] .poi#tourism[tourism='camp_site'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/accommodation/camping.glow.0092DA.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/camping.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -174,7 +174,7 @@
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/camping.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -187,7 +187,7 @@
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/camping.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -200,7 +200,7 @@
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/camp_site.glow.0092DA.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/camping.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
