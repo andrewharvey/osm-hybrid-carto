@@ -217,6 +217,18 @@
       }
     },
     {
+      "geometry": "linestring",
+      "name": "addr-interpolation",
+      "id": "addr-interpolation",
+      "class": "addr",
+      "Datasource": {
+        "table": "(\n    SELECT\n      way    FROM planet_osm_line\n    WHERE\n      \"addr:interpolation\" IS NOT NULL\n  ) as addr_interpolation",
+        "key_field": "",
+        "geometry_field": "way",
+        "type": "postgis"
+      }
+    },
+    {
       "geometry": "point",
       "name": "sport",
       "id": "sport",
