@@ -3014,59 +3014,52 @@
   }
 }
 
-[zoom > 16] .poi#amenity[amenity='university'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.12.png') }
+[zoom > 13] .poi#amenity[amenity='university'] {
+  [zoom = 14] {
+    text-name: "[name]";
+    text-face-name: "Liberation Sans Bold";
+    text-fill: #734A08;
+    text-placement: point;
+    text-wrap-width: 75;
+    text-halo-radius: 1;
+    text-size: 10;
+  }
+
+  [zoom = 15] {
+    text-name: "[name]";
+    text-face-name: "Liberation Sans Bold";
+    text-fill: #734A08;
+    text-placement: point;
+    text-wrap-width: 75;
+    text-halo-radius: 2;
+    text-size: 12;
+  }
+
+  [zoom = 16] {
+    text-name: "[name]";
+    text-face-name: "Liberation Sans Bold";
+    text-fill: #734A08;
+    text-placement: point;
+    text-wrap-width: 75;
+    text-halo-radius: 2;
+    text-size: 14;
+  }
+
+  /* don't show the uni name from 17+ as it would just clutter the building names */
+  [zoom = 17] {
+    point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.12.png')
+  }
   [zoom = 18] {
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.16.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 10;
-      text-dy: 12;
-    }
   }
   [zoom = 19] {
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.20.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 11;
-      text-dy: 14;
-    }
   }
   [zoom = 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.24.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 12;
-      text-dy: 18;
-    }
   }
   [zoom > 20] {
     point-file: url('/usr/share/icons/sjjb/png/education/university.glow.734A08.32.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 100;
-      text-halo-radius: 1.5;
-      text-size: 13;
-      text-dy: 20;
-    }
   }
 }
 
