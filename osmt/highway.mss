@@ -1,3 +1,6 @@
+/* Roads, footpaths, tracks */
+
+
 @private_road_colour: #c02c34;
 
 /* paths (footway, cycleway, track) are dotted, the halo is behind the

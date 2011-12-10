@@ -1,3 +1,5 @@
+/* address labels */
+
 #addr-point {
   [zoom > 17] {
     text-name: "[addrnum]";

@@ -1,3 +1,8 @@
+/* locality and place name labels
+   admin boundaries
+   national parks and protected areas */
+
+
 // country border
 #locality-labels[admin_level='2'][zoom > 1][zoom < 6] {
   text-name: "[name]";

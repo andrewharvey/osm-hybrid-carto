@@ -1,3 +1,5 @@
+/* water and drainage network and features */
+
 @water: #0900ff;
 @water_halo_fill: #243a7a;
 @way_opacity: 0.5;
