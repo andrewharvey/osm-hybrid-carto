@@ -157,4 +157,19 @@ in Australia this will lead to lots of duplicates
   [zoom=14] { text-size: 16; text-halo-radius: 1.75; }
 }
 
+/* country */
+#admin24[admin_level = '2'] {
+  line-width: 4;
+  line-opacity: 0.5;
+  line-color: #6E0080;
+  line-dasharray: 6,6;
+}
+
+/* state */
+#admin24[admin_level = '4'] {
+  line-width: 2;
+  line-opacity: 0.5;
+  line-color: #550062;
+  line-dasharray: 3,3;
+}
 

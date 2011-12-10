@@ -229,6 +229,18 @@
       }
     },
     {
+      "geometry": "linestring",
+      "name": "admin24",
+      "id": "admin24",
+      "class": "admin-boundary",
+      "Datasource": {
+        "table": "(\n    SELECT\n      way, admin_level    FROM planet_osm_line\n    WHERE\n      \"admin_level\" IN ('2', '4')\n  ) as admin24_boundary",
+        "key_field": "",
+        "geometry_field": "way",
+        "type": "postgis"
+      }
+    },
+    {
       "geometry": "point",
       "name": "sport",
       "id": "sport",
