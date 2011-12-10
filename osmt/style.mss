@@ -83,14 +83,14 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: black;
-  text-halo-radius: 1.0;
+  text-halo-radius: 2.0;
   text-wrap-width: 20;
 
-  [zoom > 21] { text-size: 15; }
-  [zoom = 21] { text-size: 14; }
-  [zoom = 20] { text-size: 13; }
-  [zoom = 19] { text-size: 12; }
-  [zoom = 18] { text-size: 11; }
+  [zoom > 21] { text-size: 17; }
+  [zoom = 21] { text-size: 16; }
+  [zoom = 20] { text-size: 15; }
+  [zoom = 19] { text-size: 14; }
+  [zoom = 18] { text-size: 12; }
   [zoom = 17] { text-size: 10; }
 }
 
