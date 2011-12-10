@@ -466,10 +466,12 @@
 
 .road#residential[zoom > 11] {
   ::living_street[highway='living_street'][zoom > 14] {
-    line-cap: butt;
-    line-dasharray: 6,6;
+    line-cap: round;
+    [zoom > 17] { line-dasharray: 6,24; }
+    [zoom = 17] { line-dasharray: 3,12; }
+    [zoom < 17] { line-dasharray: 6,12; }
     line-color: #76d276;
-    line-opacity: 0.5;
+    line-opacity: 0.3;
 
     [zoom > 17] { line-width: 10; }
     [zoom = 17] { line-width: 7.5; }
@@ -481,10 +483,12 @@
   }
   
   ::private[access='private'],[access='no'],[access='permissive'],[access='customer'],[access='delivery'] {
-    line-cap: butt;
-    line-dasharray: 6,6;
+    line-cap: round;
+    [zoom > 17] { line-dasharray: 6,24; }
+    [zoom = 17] { line-dasharray: 3,12; }
+    [zoom < 17] { line-dasharray: 6,12; }
     line-color: @private_road_colour;
-    line-opacity: 0.5;
+    line-opacity: 0.3;
 
     [zoom > 17] { line-width: 10; }
     [zoom = 17] { line-width: 7.5; }
