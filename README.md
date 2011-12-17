@@ -7,6 +7,8 @@ overlay to be shown on top of satellite or aerial imagery.
 
 I have [a live demo of this map style here](http://173.230.151.169/osmt.html).
 
+<iframe src="http://173.230.151.169/osmt.html" width="880" height="500"></iframe>
+
 License
 =============
 OSM Hybrid Carto Style sheet (c) by Andrew Harvey `<andrew.harvey4@gmail.com>`
