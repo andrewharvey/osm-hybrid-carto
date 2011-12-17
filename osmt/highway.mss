@@ -3,6 +3,12 @@
 
 @private_road_colour: #c02c34;
 
+@tertiary_road_colour:  #faf555;
+@secondary_road_colour: #d46833;
+@primary_road_colour:   #cc3737;
+@trunk_road_colour:     #650f0d;
+@motorway_road_colour:  #7c0046;
+
 /* paths (footway, cycleway, track) are dotted, the halo is behind the
    dots */
 @path_halo_opacity: 0.3;
@@ -516,25 +522,25 @@
 }
 
 .road#tertiary[zoom > 11] {
-  line-color: #faf555;
+  line-color: @tertiary_road_colour;
 }
 
 .road#secondary[zoom > 7] {
-  line-color: #d46833;
+  line-color: @secondary_road_colour;
   [zoom = 12] { line-width: 1.0}
 }
 
 .road#primary[zoom > 6] {
-  line-color: #cc3737;
+  line-color: @primary_road_colour;
   [zoom = 12] { line-width: 1.5}
 }
 
 .road#trunk[zoom > 5] {
-  line-color: #243a7a;
+  line-color: @trunk_road_colour;
   [zoom = 12] { line-width: 1.2}
 }
 
 .road#motorway[zoom > 4] {
-  line-color: #7a2424;
+  line-color: @motorway_road_colour;
   [zoom = 12] { line-width: 2.0}
 }
