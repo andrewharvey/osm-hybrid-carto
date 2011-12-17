@@ -399,28 +399,29 @@
 .highway#track[zoom > 12] {
   ::halo{
     line-color: @path_halo_colour;
-    line-opacity: @path_halo_opacity;
+    line-opacity: 0.7;
 
-    [zoom > 18] { line-width: 16 }
-    [zoom = 18] { line-width: 10 }
-    [zoom = 17] { line-width: 6 }
-    [zoom = 16] { line-width: 4.5 }
+    [zoom > 18] { line-width: 16; line-opacity: @path_halo_opacity; }
+    [zoom = 18] { line-width: 10; line-opacity: @path_halo_opacity; }
+    [zoom = 17] { line-width: 6; }
+    [zoom = 16] { line-width: 4.5; }
     [zoom = 15] { line-width: 3.2 }
-    [zoom = 14] { line-width: 3 }
-    [zoom = 13] { line-width: 2.4 }
+    [zoom = 14] { line-width: 2.5 }
+    [zoom = 13] { line-width: 2 }
   }
 
-  line-color: #6d4f15;
-  line-opacity: @path_dot_opacity;
-
-  [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
-  [zoom = 18] { line-width: 5  ; line-dasharray: 3,4 }
-  [zoom = 17] { line-width: 3  ; line-dasharray: 3,4 }
-  [zoom = 16] { line-width: 2.1; line-dasharray: 3,4 }
-  [zoom = 15] { line-width: 1.8; line-dasharray: 3,4 }
-  [zoom = 14] { line-width: 1.5; line-dasharray: 3,4 }
-  [zoom = 13] { line-width: 1.2  ; line-dasharray: 3,4 }
-
+  ::dottedline{
+	  line-color: #6d4f15;
+	  line-opacity: @path_dot_opacity;
+	
+	  [zoom > 18] { line-width: 8  ; line-dasharray: 16,16 }
+	  [zoom = 18] { line-width: 5  ; line-dasharray: 8,8 }
+	  [zoom = 17] { line-width: 3  ; line-dasharray: 6,6 }
+	  [zoom = 16] { line-width: 2.1; line-dasharray: 4,4 }
+	  [zoom = 15] { line-width: 1.8; line-dasharray: 4,4 }
+	  [zoom = 14] { line-width: 1.5; line-dasharray: 4,4 }
+	  [zoom = 13] { line-width: 1.2  ; line-dasharray: 4,4 }
+  }
 }
 
 .highway#cycleway[zoom > 12] {
