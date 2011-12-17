@@ -335,6 +335,13 @@
     [zoom = 12] { line-width: 0.75; }
     */
   }
+  
+  [tunnel='yes'] {
+    [zoom > 17] { line-dasharray: 6,6; }
+    [zoom = 17] { line-dasharray: 4.5,4.5; }
+    [zoom < 17] { line-dasharray: 3,3; }
+  	line-cap: butt;
+  }
 
 }
 
