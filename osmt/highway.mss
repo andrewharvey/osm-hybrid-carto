@@ -537,10 +537,26 @@
 
 .road#trunk[zoom > 5] {
   line-color: @trunk_road_colour;
-  [zoom = 12] { line-width: 1.2}
+  
+  [zoom = 15] { line-width: 3; }
+  [zoom = 14] { line-width: 2.75; }
+  [zoom = 13] { line-width: 2.5; }
+  [zoom = 12] { line-width: 2.0; }
+  [zoom = 11] { line-width: 1.25; }
 }
 
 .road#motorway[zoom > 4] {
   line-color: @motorway_road_colour;
-  [zoom = 12] { line-width: 2.0}
+  
+  /* keep in mind that most motorways are dual-carraige ways, and
+     the current mapnik/osm2pgsql doesn't combine these into one
+     for low zooms */
+     
+  [zoom = 16] { line-width: 6; }
+  [zoom = 15] { line-width: 4; }
+  [zoom = 14] { line-width: 3; }
+  [zoom = 13] { line-width: 2.5; }
+  [zoom = 12] { line-width: 2.0; }
+  [zoom = 11] { line-width: 1.75; }
+  [zoom = 10] { line-width: 1.5; }
 }
