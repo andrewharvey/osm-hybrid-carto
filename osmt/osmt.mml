@@ -230,11 +230,23 @@
     },
     {
       "geometry": "linestring",
-      "name": "admin24",
-      "id": "admin24",
+      "name": "admin-country-boundary",
+      "id": "admin-country-boundary",
       "class": "admin-boundary",
       "Datasource": {
-        "table": "(\n    SELECT\n      way, admin_level    FROM planet_osm_line\n    WHERE\n      \"admin_level\" IN ('2', '4')\n  ) as admin24_boundary",
+        "table": "(\n    SELECT\n      way, admin_level    FROM planet_osm_line\n    WHERE\n      \"admin_level\" IN ('2')\n  ) as admincountry_boundary",
+        "key_field": "",
+        "geometry_field": "way",
+        "type": "postgis"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "admin-state-boundary",
+      "id": "admin-state-boundary",
+      "class": "admin-boundary",
+      "Datasource": {
+        "table": "(\n    SELECT\n      way, admin_level    FROM planet_osm_line\n    WHERE\n      \"admin_level\" IN ('4')\n  ) as adminstate_boundary",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -458,11 +470,24 @@
     },
     {
       "geometry": "point",
-      "name": "locality-labels",
-      "id": "locality-labels",
+      "name": "locality-places",
+      "id": "locality-places",
       "class": "label",
       "Datasource": {
-        "table": "(\n  (\n  SELECT\n    ST_Centroid(way) as way,\n    name,\n    boundary,\n    admin_level,\n    place,\n    way_area\n  FROM planet_osm_polygon\n  WHERE (\n    (boundary in ('administrative', 'national_park') OR\n    place IS NOT NULL) AND\n    (name IS NOT NULL)\n    )\n  ) UNION (\n  SELECT\n    way,\n    name,\n    null,\n    null,\n    place,\n    null\n  FROM planet_osm_point\n  WHERE (\n    (place IS NOT NULL) AND\n    (name IS NOT NULL))\n  )\n) AS localitylabels",
+        "table": "(\n   SELECT way, name, place FROM planet_osm_point WHERE ( (place IS NOT NULL) AND (name IS NOT NULL))\n) AS localityplaces",
+        "key_field": "",
+        "geometry_field": "way",
+        "type": "postgis"
+      }
+    }
+,
+    {
+      "geometry": "polygon",
+      "name": "localities",
+      "id": "localities",
+      "class": "label",
+      "Datasource": {
+        "table": "(\n SELECT\n   way, \n   name, \n   boundary, \n   admin_level, \n   way_area\n FROM\n   planet_osm_polygon\n WHERE\n   (\n     ( boundary IN ('administrative') AND\n       admin_level IN ('2', '4', '9', '10') )\n     OR\n     ( boundary IN ('national_park') )\n   )\n   AND\n   (\n     name IS NOT NULL\n   )\n) AS localities",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"

@@ -3,8 +3,8 @@
    national parks and protected areas */
 
 
-// country border
-#locality-labels[admin_level='2'][zoom > 1][zoom < 6] {
+// country labels
+#localities[admin_level='2'][zoom > 1][zoom < 6] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Bold";
   text-fill: white;
@@ -23,8 +23,8 @@
   [zoom = 5] { text-size: 25; }
 }
 
-// state and territor borders
-#locality-labels[admin_level='4'][zoom > 3][zoom < 7] {
+// state and territor labels
+#localities[admin_level='4'][zoom > 3][zoom < 7] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Bold";
   text-fill: white;
@@ -42,12 +42,8 @@
   [zoom = 6] { text-size: 18; }
 }
 
-// council/LGA borders
-#locality-labels[admin_level='6'] {
-}
-
-// city
-#locality-labels[place='city'][zoom > 5][zoom < 19] {
+// city labels
+#locality-places[place='city'][zoom > 5][zoom < 19] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Bold";
   text-fill: white;
@@ -82,13 +78,13 @@
   }
 }
 
-// suburb borders
+// suburb labels
 /*
 don't add label for #locality-labels[place='suburb']
 in Australia this will lead to lots of duplicates
 */
 [zoom > 11][zoom < 19] {
-  #locality-labels[admin_level='9'],#locality-labels[admin_level='10'] {
+  #localities[admin_level='9'],#localities[admin_level='10'] {
     text-name: "[name]";
     text-face-name: "Liberation Sans Bold";
     text-fill: white;
@@ -127,7 +123,7 @@ in Australia this will lead to lots of duplicates
 }
 
 /* national parks... */
-#locality-labels[boundary='national_park'][zoom > 11][way_area > 1000000] {
+#localities[boundary='national_park'][zoom > 11][way_area > 1000000] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Bold";
   text-fill: green;
@@ -143,7 +139,7 @@ in Australia this will lead to lots of duplicates
   [zoom=12] { text-size: 12; text-halo-radius: 1.0; }
 }
 
-#locality-labels[boundary='national_park'][zoom > 13][way_area < 1000000] {
+#localities[boundary='national_park'][zoom > 13][way_area < 1000000] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Bold";
   text-fill: green;
@@ -158,7 +154,7 @@ in Australia this will lead to lots of duplicates
 }
 
 /* country */
-#admin24[admin_level = '2'] {
+#admin-country-boundary[admin_level = '2'] {
   line-width: 4;
   line-opacity: 0.5;
   line-color: #6E0080;
@@ -166,7 +162,7 @@ in Australia this will lead to lots of duplicates
 }
 
 /* state */
-#admin24[admin_level = '4'] {
+#admin-state-boundary[admin_level = '4'] {
   line-width: 2;
   line-opacity: 0.5;
   line-color: #550062;
