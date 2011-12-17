@@ -258,7 +258,7 @@
       "id": "sport",
       "class": "poi",
       "Datasource": {
-        "table": "(\n  (\n    SELECT way, sport\n    FROM planet_osm_point\n    WHERE (sport IS NOT NULL)\n  )\n  UNION\n  (\n    SELECT ST_Centroid(way) as way, sport\n    FROM planet_osm_polygon\n    WHERE (sport IS NOT null)\n  )\n) AS sport_poi",
+        "table": "(\n  (\n    SELECT way, sport\n    FROM planet_osm_point\n    WHERE (sport IS NOT NULL)\n  )\n  UNION\n  (\n    SELECT way, sport\n    FROM planet_osm_polygon\n    WHERE (sport IS NOT null)\n  )\n) AS sport_poi",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -270,7 +270,7 @@
       "id": "shop",
       "class": "poi",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_point\n    WHERE\n      (shop IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_polygon\n    WHERE\n      (shop IS NOT null)\n  )\n) AS shop_poi",
+        "table": "(\n  (\n    SELECT\n      way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_point\n    WHERE\n      (shop IS NOT null)\n  ) UNION (\n    SELECT\n      way,\n      shop,\n      tags->'cuisine' as cuisine,\n      name\n    FROM planet_osm_polygon\n    WHERE\n      (shop IS NOT null)\n  )\n) AS shop_poi",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -282,7 +282,7 @@
       "id": "tourism",
       "class": "poi",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      tourism,\n      name\n    FROM planet_osm_point\n    WHERE (tourism IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      tourism,\n      name\n    FROM planet_osm_polygon\n    WHERE (tourism IS NOT null)\n  )\n) AS tourism_poi",
+        "table": "(\n  (\n    SELECT\n      way,\n      tourism,\n      name\n    FROM planet_osm_point\n    WHERE (tourism IS NOT null)\n  ) UNION (\n    SELECT\n      way,\n      tourism,\n      name\n    FROM planet_osm_polygon\n    WHERE (tourism IS NOT null)\n  )\n) AS tourism_poi",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -294,7 +294,7 @@
       "id": "man_made",
       "class": "poi",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      man_made,\n      name\n    FROM planet_osm_point\n    WHERE (man_made IN ('water_tower'))\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      man_made,\n      name\n    FROM planet_osm_polygon\n    WHERE (man_made IN ('water_tower'))\n  )\n) AS man_made_poi",
+        "table": "(\n  (\n    SELECT\n      way,\n      man_made,\n      name\n    FROM planet_osm_point\n    WHERE (man_made IN ('water_tower'))\n  ) UNION (\n    SELECT\n      way,\n      man_made,\n      name\n    FROM planet_osm_polygon\n    WHERE (man_made IN ('water_tower'))\n  )\n) AS man_made_poi",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -306,7 +306,7 @@
       "id": "amenity",
       "class": "poi",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      tags->'school:level' as school_level,\n      name,\n      null as way_area\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      tags->'school:level' as school_level,\n      name,\n      way_area\n    FROM planet_osm_polygon\n    WHERE (amenity IS NOT null)\n  )\n) AS amenity_poi",
+        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      tags->'school:level' as school_level,\n      name,\n      null as way_area\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null)\n  ) UNION (\n    SELECT\n      way,\n      amenity,\n      tags->'school:level' as school_level,\n      name,\n      way_area\n    FROM planet_osm_polygon\n    WHERE (amenity IS NOT null)\n  )\n) AS amenity_poi",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -318,7 +318,7 @@
       "id": "leisure",
       "class": "poi",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      leisure,\n      name\n    FROM planet_osm_point\n    WHERE (leisure IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      leisure,\n      name\n    FROM planet_osm_polygon\n    WHERE (leisure IS NOT null)\n  )\n) AS leisure_poi",
+        "table": "(\n  (\n    SELECT\n      way,\n      leisure,\n      name\n    FROM planet_osm_point\n    WHERE (leisure IS NOT null)\n  ) UNION (\n    SELECT\n      way,\n      leisure,\n      name\n    FROM planet_osm_polygon\n    WHERE (leisure IS NOT null)\n  )\n) AS leisure_poi",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -366,7 +366,7 @@
       "id": "addr-point",
       "class": "addr",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_point\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n  UNION\n  (\n    SELECT\n      ST_Centroid(way) as way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_polygon\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n) as addr_point",
+        "table": "(\n  (\n    SELECT\n      way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_point\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n  UNION\n  (\n    SELECT\n      way,\n      \"addr:housenumber\" as addrnum\n    FROM planet_osm_polygon\n    WHERE\n      \"addr:housenumber\" IS NOT NULL\n  )\n) as addr_point",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
