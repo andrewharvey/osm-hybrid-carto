@@ -487,7 +487,7 @@
     line-color: #76d276;
     line-opacity: 0.3;
 
-    [zoom > 17] { line-width: 10; }
+    [zoom = 18] { line-width: 10; }
     [zoom = 17] { line-width: 7.5; }
     [zoom = 16] { line-width: 3.5; }
     [zoom = 15] { line-width: 1.75; }
@@ -504,7 +504,7 @@
     line-color: @private_road_colour;
     line-opacity: 0.3;
 
-    [zoom > 17] { line-width: 10; }
+    [zoom = 18] { line-width: 10; }
     [zoom = 17] { line-width: 7.5; }
     [zoom = 16] { line-width: 3.5; }
     [zoom = 15] { line-width: 1.75; }
@@ -513,7 +513,7 @@
     [zoom = 12] { line-width: 0.3; }
   }
 
-  [zoom > 17] { line-width: 10; }
+  [zoom = 18] { line-width: 10; }
   [zoom = 17] { line-width: 7.5; }
   [zoom = 16] { line-width: 3.5; }
   [zoom = 15] { line-width: 1.75; }
