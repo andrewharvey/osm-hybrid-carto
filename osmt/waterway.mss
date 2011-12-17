@@ -61,7 +61,7 @@
 }
 
 [zoom > 12] {
-  #waterway-labels[waterway='stream'],#waterway-labels[waterway='brook'],#waterway-labels[waterway='drain'] {
+  #waterway-labels[waterway='stream'],#waterway-labels[waterway='brook'],#waterway-labels[waterway='drain'],#waterway-labels[waterway='canal'] {
     text-name: "[name]";
     text-face-name: "Liberation Sans Regular";
     text-fill: white;
