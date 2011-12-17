@@ -1,11 +1,11 @@
 About
 =============
-OSMT (OSM Hybrid Carto) is a map style sheet written in
+OSMT (OSM Hybrid Carto) is a map style written in
 [carto](https://github.com/mapbox/carto) for
 [OpenStreetMap](http://www.openstreetmap.org/) data. It is designed as an
 overlay to be shown on top of satellite or aerial imagery.
 
-I have [a live demo of this map style sheet here](http://173.230.151.169/osmt.html).
+I have [a live demo of this map style here](http://173.230.151.169/osmt.html).
 
 License
 =============
