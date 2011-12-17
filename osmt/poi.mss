@@ -3175,8 +3175,22 @@
   }
 }
 
-[zoom > 16] .poi#amenity[amenity='hospital'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.12.png') }
+[zoom > 14] .poi#amenity[amenity='hospital'] {
+  [zoom = 15] { point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.12.png') }
+  [zoom = 16] { point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.16.png') }
+  [zoom = 17] {
+    point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.16.png');
+    ::label {
+      text-name: "[name]";
+      text-face-name: "Liberation Sans Bold";
+      text-fill: #DA0092;
+      text-placement: point;
+      text-wrap-width: 75;
+      text-halo-radius: 1.5;
+      text-size: 10;
+      text-dy: 12;
+    }
+  }
   [zoom = 18] {
     point-file: url('/usr/share/icons/sjjb/png/health/hospital.p.DA0092.16.png');
     ::label {
