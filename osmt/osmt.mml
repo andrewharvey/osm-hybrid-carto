@@ -38,6 +38,18 @@
     },
     {
       "geometry": "linestring",
+      "name": "railway-line",
+      "id": "railway-line",
+      "class": "",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    railway\n  FROM planet_osm_line\n  WHERE railway in ('rail', 'tram', 'light_rail', 'monorail')\n) AS railway_line",
+        "key_field": "",
+        "geometry_field": "way",
+        "type": "postgis"
+      }
+    },
+    {
+      "geometry": "linestring",
       "name": "footway",
       "id": "footway",
       "class": "highway",
@@ -199,18 +211,6 @@
       "class": "route",
       "Datasource": {
         "table": "(\n  SELECT\n    way\n  FROM\n    planet_osm_line\n  WHERE\n    route = 'ferry'\n) as ferry_route",
-        "key_field": "",
-        "geometry_field": "way",
-        "type": "postgis"
-      }
-    },
-    {
-      "geometry": "linestring",
-      "name": "railway-line",
-      "id": "railway-line",
-      "class": "",
-      "Datasource": {
-        "table": "(\n  SELECT\n    way,\n    railway\n  FROM planet_osm_line\n  WHERE railway in ('rail', 'tram', 'light_rail', 'monorail')\n) AS railway_line",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
