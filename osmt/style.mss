@@ -116,6 +116,9 @@
   [zoom = 17] { text-size: 12; }
   [zoom = 16] { text-size: 11; }
   [zoom = 15] { text-size: 11; }
+  
+  /* if mapnik can't place a label, try an icon instead */
+  point-file: url('/usr/share/icons/sjjb/png/sport/golf.glow.39AC39.12.png');
 }
 
 
