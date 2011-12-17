@@ -13,13 +13,31 @@
   icon with name)
 */
 
+/*
+  Large labeled areas such as park, golf courses and schools.
+
+  These labels are shown at z15-17, before we see POI features.
+
+  We use the way_area to show labels for larger areas from lower zooms.
+
+  By placing a point-file below all the text-* attributes mapnik will
+  render a marker icon if it decides it can't fit the text due to other labels
+  in the way.
+*/
+
+@school_label_halo_colour: #342101;
+@park_label_halo_colour: #0e300e;
+
+
+/**  Parks  **/
+
 /* only show from z15+ where area > 30,000 */
 #park-labels[zoom > 14][way_area > 30000] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
   text-placement: interior;
-  text-halo-fill: #0e300e;
+  text-halo-fill: @park_label_halo_colour;
   text-halo-radius: 2.0;
   text-wrap-width: 20;
   text-opacity: 0.75;
@@ -40,7 +58,7 @@
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
   text-placement: interior;
-  text-halo-fill: #0e300e;
+  text-halo-fill: @park_label_halo_colour;
   text-halo-radius: 2.0;
   text-wrap-width: 20;
   text-opacity: 0.75;
@@ -61,7 +79,7 @@
   text-face-name: "Liberation Sans Regular";
   text-fill: white;
   text-placement: interior;
-  text-halo-fill: #0e300e;
+  text-halo-fill: @park_label_halo_colour;
   text-halo-radius: 2.0;
   text-wrap-width: 20;
   text-opacity: 0.75;
@@ -76,7 +94,10 @@
   [zoom = 15] { text-size: 11; }
 }
 
-/* golf course labels */
+
+/**  Golf Courses  **/
+
+/* since most are large, just render all labels from zoom 15+ */
 #leisure[leisure='golf_course'][zoom > 14] {
   text-name: "[name]";
   text-face-name: "Liberation Sans Regular";
@@ -97,6 +118,79 @@
   [zoom = 15] { text-size: 11; }
 }
 
+
+/**  Schools  **/
+
+/* only show from z15+ where area > 30,000 */
+#school-labels[zoom > 14][way_area > 30000] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: interior;
+  text-halo-fill: @school_label_halo_colour;
+  text-halo-radius: 2.0;
+  text-wrap-width: 20;
+  text-opacity: 0.75;
+
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  
+  /* if mapnik can't place a label, try an icon instead */
+  point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.12.png');
+}
+
+/* start showing on z16+ on area > 10,000 */
+#school-labels[zoom > 15][way_area >= 10000][way_area < 30000] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: interior;
+  text-halo-fill: @school_label_halo_colour;
+  text-halo-radius: 2.0;
+  text-wrap-width: 20;
+  text-opacity: 0.75;
+
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  
+  point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.16.png');
+}
+
+/* show the rest from z17+ */
+#school-labels[zoom > 16][way_area < 10000] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: interior;
+  text-halo-fill: @school_label_halo_colour;
+  text-halo-radius: 2.0;
+  text-wrap-width: 20;
+  text-opacity: 0.75;
+
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom = 15] { text-size: 11; }
+  
+  point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.20.png');
+}
+
 /* building names */
 #building-label[zoom > 16] {
   text-name: "[name]";
@@ -114,6 +208,10 @@
   [zoom = 18] { text-size: 12; }
   [zoom = 17] { text-size: 10; }
 }
+
+/*
+  Miscellaneous items
+  */
 
 /* ferry routes */
 #ferry-route[zoom > 6][zoom < 12] {

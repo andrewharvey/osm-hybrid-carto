@@ -294,7 +294,7 @@
       "id": "amenity",
       "class": "poi",
       "Datasource": {
-        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      tags->'school:level' as school_level,\n      name\n    FROM planet_osm_polygon\n    WHERE (amenity IS NOT null)\n  )\n) AS amenity_poi",
+        "table": "(\n  (\n    SELECT\n      way,\n      amenity,\n      tags->'school:level' as school_level,\n      name,\n      null as way_area\n    FROM planet_osm_point\n    WHERE (amenity IS NOT null)\n  ) UNION (\n    SELECT\n      ST_Centroid(way) as way,\n      amenity,\n      tags->'school:level' as school_level,\n      name,\n      way_area\n    FROM planet_osm_polygon\n    WHERE (amenity IS NOT null)\n  )\n) AS amenity_poi",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"
@@ -403,6 +403,18 @@
       "class": "label",
       "Datasource": {
         "table": "(\n  SELECT\n    way,\n    name,\n    way_area\n  FROM planet_osm_polygon\n  WHERE\n    (planet_osm_polygon.leisure IN ('park') AND \n    name IS NOT NULL)\n) AS amenitylabel",
+        "key_field": "",
+        "geometry_field": "way",
+        "type": "postgis"
+      }
+    },
+    {
+      "geometry": "polygon",
+      "name": "school-labels",
+      "id": "school-labels",
+      "class": "label",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    name,\n    way_area\n  FROM planet_osm_polygon\n  WHERE\n    (planet_osm_polygon.amenity IN ('school') AND \n    name IS NOT NULL)\n) AS schoollabel",
         "key_field": "",
         "geometry_field": "way",
         "type": "postgis"

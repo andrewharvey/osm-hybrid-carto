@@ -11,41 +11,6 @@
   code more complicated things.
 */
 
-/*
-#amenity[amenity='school'] {
-  ::icon{
-    point-file: url('/usr/share/icons/sjjb/png/education/school.glow.000000.12.png');
-  }
-
-  ::label[zoom > 14] {
-    text-name: "[name]";
-    text-face-name: "Liberation Sans Regular";
-    text-fill: white;
-    text-placement: point;
-    text-halo-fill: #6c4600;
-    text-halo-radius: 2.0;
-    text-wrap-width: 20;
-    text-vertical-alignment: bottom;
-    text-opacity: 0.75;
-
-    [zoom > 21] { text-size: 30; }
-    [zoom = 21] { text-size: 25; }
-    [zoom = 20] { text-size: 20; }
-    [zoom = 19] { text-size: 15; }
-    [zoom = 18] { text-size: 13; }
-    [zoom = 17] { text-size: 12; }
-    [zoom = 16] { text-size: 11; }
-    [zoom = 15] { text-size: 11; }
-  }
-
-  #amenity[amenity='school'][school_level='primary'] {
-    point-file: url('/usr/share/icons/sjjb/png/education/school_primary.glow.000000.12.png');
-  }
-
-  #amenity[amenity='school'][school_level='secondary'] {
-    point-file: url('/usr/share/icons/sjjb/png/education/school_secondary.glow.000000.12.png');
-  }
-}*/
 [zoom > 16] .poi#tourism[tourism='alpine_hut'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/accommodation/alpine_hut.glow.0092DA.12.png') }
   [zoom = 18] {
@@ -2958,59 +2923,17 @@
   }
 }
 
-[zoom > 16] .poi#amenity[amenity='school'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.12.png') }
-  [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.16.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 10;
-      text-dy: 12;
+/* for cases not already handled by the large area labelling styles */
+.poi#amenity[amenity='school'] {
+  [zoom = 15][way_area <= 30000],[zoom = 16][way_area < 10000] {
+    [school_level='primary'] {
+      point-file: url('/usr/share/icons/sjjb/png/education/school_primary.glow.734A08.12.png');
     }
-  }
-  [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.20.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 11;
-      text-dy: 14;
+    [school_level='secondary'] {
+      point-file: url('/usr/share/icons/sjjb/png/education/school_secondary.glow.734A08.12.png');
     }
-  }
-  [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.24.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 12;
-      text-dy: 18;
-    }
-  }
-  [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.32.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #734A08;
-      text-placement: point;
-      text-wrap-width: 100;
-      text-halo-radius: 1.5;
-      text-size: 13;
-      text-dy: 20;
-    }
+    /* default */
+    point-file: url('/usr/share/icons/sjjb/png/education/school.glow.734A08.12.png');
   }
 }
 
