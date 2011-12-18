@@ -343,9 +343,9 @@
     [highway='steps']{
       line-cap: butt;
 
-      [zoom > 18] { line-dasharray: 3,4 }
-      [zoom = 18] { line-dasharray: 2,3 }
-      [zoom < 18] { line-dasharray: 1,2 }
+      [zoom > 18] { line-width: 6 ; line-dasharray: 3,4 }
+      [zoom = 18] { line-width: 5 ; line-dasharray: 2,3 }
+      [zoom < 18] { line-width: 4 ; line-dasharray: 1,2 }
     }
   }
 
