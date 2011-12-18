@@ -180,9 +180,9 @@
 }
 
 [zoom > 16] .poi#tourism[tourism='caravan_site'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_park.glow.0092DA.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_park.glow.0092DA.16.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -195,7 +195,7 @@
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_park.glow.0092DA.20.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -208,7 +208,7 @@
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_park.glow.0092DA.24.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -221,7 +221,7 @@
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_site.glow.0092DA.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/accommodation/caravan_park.glow.0092DA.32.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -3281,9 +3281,9 @@
 }
 
 [zoom > 16] .poi#shop[shop='optician'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.12.png') }
+  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/health/opticians.p.DA0092.12.png') }
   [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.16.png');
+    point-file: url('/usr/share/icons/sjjb/png/health/opticians.p.DA0092.16.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -3296,7 +3296,7 @@
     }
   }
   [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.20.png');
+    point-file: url('/usr/share/icons/sjjb/png/health/opticians.p.DA0092.20.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -3309,7 +3309,7 @@
     }
   }
   [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.24.png');
+    point-file: url('/usr/share/icons/sjjb/png/health/opticians.p.DA0092.24.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
@@ -3322,7 +3322,7 @@
     }
   }
   [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/health/optician.p.DA0092.32.png');
+    point-file: url('/usr/share/icons/sjjb/png/health/opticians.p.DA0092.32.png');
     ::label {
       text-name: "[name]";
       text-face-name: "Liberation Sans Bold";
