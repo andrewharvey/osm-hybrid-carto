@@ -274,16 +274,6 @@
   [zoom = 12] {text-size: 8; }
 }
 
-/* default style for all path, footway, track, cycleways and roads */
-.highway[zoom > 12] {
-  line-color: #000000;
-  line-opacity: 0.5;
-  line-join: round;
-  line-cap: round;
-
-  line-width: 1;
-}
-
 /* defaults for roads with cars */
 .road[zoom > 11] {
   ::oneway_arrow[oneway='yes'][zoom > 14] {
@@ -305,8 +295,6 @@
   line-join: round;
   line-cap: round;
 
-  line-width: 1;
-
   [zoom > 17] { line-width: 15; line-opacity: 0.5; }
   [zoom = 17] { line-width: 10; line-opacity: 0.5; }
   [zoom = 16] { line-width: 5; line-opacity: 0.5; }
@@ -317,22 +305,9 @@
 
   ::bridge[bridge='yes'] {
     /*
-    ideally we would draw two lines outside the existing line,
-    but the current compositing method in mapnik won't allow this
-    so easily with transparency
-
-    line-color: #000000;
-    line-opacity: 0.5;
-    line-join: round;
-    line-cap: round;
-
-    [zoom > 17] { line-width: 20; }
-    [zoom = 17] { line-width: 15; }
-    [zoom = 16] { line-width: 7; }
-    [zoom = 15] { line-width: 3; }
-    [zoom = 14] { line-width: 2; }
-    [zoom = 13] { line-width: 1.5; }
-    [zoom = 12] { line-width: 0.75; }
+      ideally we would draw two lines outside the existing line,
+      but the current compositing method in mapnik won't allow this
+      so easily with transparency
     */
   }
   
@@ -350,27 +325,28 @@
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
 
-    [zoom > 18] { line-width: 9 }
-    [zoom = 18] { line-width: 6 }
-    [zoom = 17] { line-width: 4 }
+    [zoom >= 17] { line-width: 4 }
     [zoom < 17] { line-width: 2 }
   }
 
-  line-color: #FF0000;
-  line-opacity: @path_dot_opacity;
+  ::dottedline{
+    line-join: round;
+    line-cap: round;
+    
+    line-color: #B92525;
+    line-opacity: @path_dot_opacity;
 
-  [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
-  [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
-  [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
-  [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
-  [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
+    [zoom > 16] { line-width: 3  ; line-dasharray: 1,4 }
+    [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
+    [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
 
-  [highway='steps']{
-    line-cap: butt;
+    [highway='steps']{
+      line-cap: butt;
 
-    [zoom > 18] { line-dasharray: 3,4 }
-    [zoom = 18] { line-dasharray: 2,3 }
-    [zoom < 18] { line-dasharray: 1,2 }
+      [zoom > 18] { line-dasharray: 3,4 }
+      [zoom = 18] { line-dasharray: 2,3 }
+      [zoom < 18] { line-dasharray: 1,2 }
+    }
   }
 
 }
@@ -380,20 +356,21 @@
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
 
-    [zoom > 18] { line-width: 9 }
-    [zoom = 18] { line-width: 6 }
-    [zoom = 17] { line-width: 4 }
+    [zoom >= 17] { line-width: 4 }
     [zoom < 17] { line-width: 2 }
   }
-  line-color: #000000;
-  line-opacity: @path_dot_opacity;
 
-  [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
-  [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
-  [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
-  [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
-  [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
+  ::dottedline {
+    line-join: round;
+    line-cap: round;
+ 
+    line-color: #000000;
+    line-opacity: @path_dot_opacity;
 
+    [zoom > 16] { line-width: 3  ; line-dasharray: 1,4 }
+    [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
+    [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
+  }
 }
 
 .highway#track[zoom > 12] {
@@ -429,21 +406,21 @@
     line-color: @path_halo_colour;
     line-opacity: @path_halo_opacity;
 
-    [zoom > 18] { line-width: 9 }
-    [zoom = 18] { line-width: 6 }
-    [zoom = 17] { line-width: 4 }
+    [zoom >= 17] { line-width: 4 }
     [zoom < 17] { line-width: 2 }
   }
 
-  line-color: #0000ff;
-  line-opacity: @path_dot_opacity;
+  ::dottedline{
+    line-join: round;
+    line-cap: round;
+    
+    line-color: #0000ff;
+    line-opacity: @path_dot_opacity;
 
-  [zoom > 18] { line-width: 8  ; line-dasharray: 2,16 }
-  [zoom = 18] { line-width: 5  ; line-dasharray: 2,8 }
-  [zoom = 17] { line-width: 3  ; line-dasharray: 1,4 }
-  [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
-  [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
-
+    [zoom > 16] { line-width: 3  ; line-dasharray: 1,4 }
+    [zoom = 16] { line-width: 2  ; line-dasharray: 1,3 }
+    [zoom < 16] { line-width: 1.5; line-dasharray: 1,2 }
+  }
 }
 
 .road#service[zoom > 11] {
