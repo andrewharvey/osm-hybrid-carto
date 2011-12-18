@@ -25,9 +25,11 @@
   in the way.
 */
 
-@school_label_halo_colour: #342101;
+@school_label_halo_colour: #241600;
 @park_label_halo_colour: #0e300e;
 
+@area_label_opacity: 1.0;
+@area_label_halo_radius: 2.0;
 
 /**  Parks  **/
 
@@ -38,9 +40,9 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: @park_label_halo_colour;
-  text-halo-radius: 2.0;
+  text-halo-radius: @area_label_halo_radius;
   text-wrap-width: 20;
-  text-opacity: 0.75;
+  text-opacity: @area_label_opacity;
 
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -59,9 +61,9 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: @park_label_halo_colour;
-  text-halo-radius: 2.0;
+  text-halo-radius: @area_label_halo_radius;
   text-wrap-width: 20;
-  text-opacity: 0.75;
+  text-opacity: @area_label_opacity;
 
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -80,9 +82,9 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: @park_label_halo_colour;
-  text-halo-radius: 2.0;
+  text-halo-radius: @area_label_halo_radius;
   text-wrap-width: 20;
-  text-opacity: 0.75;
+  text-opacity: @area_label_opacity;
 
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -104,9 +106,9 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: #021402;
-  text-halo-radius: 2.0;
+  text-halo-radius: @area_label_halo_radius;
   text-wrap-width: 50;
-  text-opacity: 0.75;
+  text-opacity: @area_label_opacity;
 
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -131,9 +133,9 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: @school_label_halo_colour;
-  text-halo-radius: 2.0;
-  text-wrap-width: 20;
-  text-opacity: 0.75;
+  text-halo-radius: @area_label_halo_radius;
+  text-wrap-width: 30;
+  text-opacity: @area_label_opacity;
 
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -155,9 +157,9 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: @school_label_halo_colour;
-  text-halo-radius: 2.0;
+  text-halo-radius: @area_label_halo_radius;
   text-wrap-width: 20;
-  text-opacity: 0.75;
+  text-opacity: @area_label_opacity;
 
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
@@ -178,9 +180,9 @@
   text-fill: white;
   text-placement: interior;
   text-halo-fill: @school_label_halo_colour;
-  text-halo-radius: 2.0;
+  text-halo-radius: @area_label_halo_radius;
   text-wrap-width: 20;
-  text-opacity: 0.75;
+  text-opacity: @area_label_opacity;
 
   [zoom > 21] { text-size: 30; }
   [zoom = 21] { text-size: 25; }
