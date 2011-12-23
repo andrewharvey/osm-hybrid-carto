@@ -63,6 +63,7 @@ $label = yes
 //  .poi#barrier[building=exit] barrier/
   .poi#barrier[barrier=gate]
   .poi#barrier[barrier=kissing_gate]
+  .poi#barrier[barrier=turnstile] /kissing_gate
   .poi#barrier[barrier=lift_gate]
   .poi#barrier[barrier=steps]
   .poi#barrier[barrier=stile]

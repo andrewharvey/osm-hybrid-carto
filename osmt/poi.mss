@@ -2531,58 +2531,61 @@
   }
 }
 
-[zoom > 16] .poi#barrier[barrier='kissing_gate'] {
-  [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.12.png') }
-  [zoom = 18] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.16.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #999999;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 10;
-      text-dy: 12;
+[zoom > 16] .poi#barrier {
+  /* kissing_gate or turnstile */
+  [barrier='kissing_gate'],[barrier='turnstile'] {
+    [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.12.png') }
+    [zoom = 18] {
+      point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.16.png');
+      ::label {
+        text-name: "[name]";
+        text-face-name: "Liberation Sans Bold";
+        text-fill: #999999;
+        text-placement: point;
+        text-wrap-width: 75;
+        text-halo-radius: 1.5;
+        text-size: 10;
+        text-dy: 12;
+      }
     }
-  }
-  [zoom = 19] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.20.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #999999;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 11;
-      text-dy: 14;
+    [zoom = 19] {
+      point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.20.png');
+      ::label {
+        text-name: "[name]";
+        text-face-name: "Liberation Sans Bold";
+        text-fill: #999999;
+        text-placement: point;
+        text-wrap-width: 75;
+        text-halo-radius: 1.5;
+        text-size: 11;
+        text-dy: 14;
+      }
     }
-  }
-  [zoom = 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.24.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #999999;
-      text-placement: point;
-      text-wrap-width: 75;
-      text-halo-radius: 1.5;
-      text-size: 12;
-      text-dy: 18;
+    [zoom = 20] {
+      point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.24.png');
+      ::label {
+        text-name: "[name]";
+        text-face-name: "Liberation Sans Bold";
+        text-fill: #999999;
+        text-placement: point;
+        text-wrap-width: 75;
+        text-halo-radius: 1.5;
+        text-size: 12;
+        text-dy: 18;
+      }
     }
-  }
-  [zoom > 20] {
-    point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.32.png');
-    ::label {
-      text-name: "[name]";
-      text-face-name: "Liberation Sans Bold";
-      text-fill: #999999;
-      text-placement: point;
-      text-wrap-width: 100;
-      text-halo-radius: 1.5;
-      text-size: 13;
-      text-dy: 20;
+    [zoom > 20] {
+      point-file: url('/usr/share/icons/sjjb/png/barrier/kissing_gate.glow.999999.32.png');
+      ::label {
+        text-name: "[name]";
+        text-face-name: "Liberation Sans Bold";
+        text-fill: #999999;
+        text-placement: point;
+        text-wrap-width: 100;
+        text-halo-radius: 1.5;
+        text-size: 13;
+        text-dy: 20;
+      }
     }
   }
 }
