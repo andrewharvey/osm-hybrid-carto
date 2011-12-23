@@ -410,6 +410,18 @@
     },
     {
       "geometry": "polygon",
+      "name": "industrial-labels",
+      "id": "industrial-labels",
+      "class": "label",
+      "Datasource": {
+        "table": "(\n  SELECT\n    way,\n    name,\n    way_area\n  FROM planet_osm_polygon\n  WHERE\n    (planet_osm_polygon.landuse IN ('industrial') AND \n    name IS NOT NULL)\n) AS industriallabel",
+        "key_field": "",
+        "geometry_field": "way",
+        "type": "postgis"
+      }
+    },
+    {
+      "geometry": "polygon",
       "name": "park-labels",
       "id": "park-labels",
       "class": "label",

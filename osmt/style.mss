@@ -27,6 +27,7 @@
 
 @school_label_halo_colour: #241600;
 @park_label_halo_colour: #0e300e;
+@industrial_label_halo_colour: #380032;
 
 @area_label_opacity: 1.0;
 @area_label_halo_radius: 2.0;
@@ -212,6 +213,69 @@
   [zoom = 19] { text-size: 14; }
   [zoom = 18] { text-size: 12; }
   [zoom = 17] { text-size: 10; }
+}
+
+/**  Industrial Areas  **/
+
+/* only show from z14+ where area > 30,000 */
+#industrial-labels[zoom > 13][way_area > 30000] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: interior;
+  text-halo-fill: @industrial_label_halo_colour;
+  text-halo-radius: @area_label_halo_radius;
+  text-wrap-width: 20;
+  text-opacity: @area_label_opacity;
+
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom = 16] { text-size: 11; }
+  [zoom < 16] { text-size: 11; }
+}
+
+/* start showing on z16+ on area > 10,000 */
+#industrial-labels[zoom > 14][way_area >= 10000][way_area < 30000] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: interior;
+  text-halo-fill: @industrial_label_halo_colour;
+  text-halo-radius: @area_label_halo_radius;
+  text-wrap-width: 20;
+  text-opacity: @area_label_opacity;
+
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom < 17] { text-size: 11; }
+}
+
+/* show the rest from z17+ */
+#industrial-labels[zoom > 15][way_area < 10000] {
+  text-name: "[name]";
+  text-face-name: "Liberation Sans Regular";
+  text-fill: white;
+  text-placement: interior;
+  text-halo-fill: @industrial_label_halo_colour;
+  text-halo-radius: @area_label_halo_radius;
+  text-wrap-width: 20;
+  text-opacity: @area_label_opacity;
+
+  [zoom > 21] { text-size: 30; }
+  [zoom = 21] { text-size: 25; }
+  [zoom = 20] { text-size: 20; }
+  [zoom = 19] { text-size: 15; }
+  [zoom = 18] { text-size: 13; }
+  [zoom = 17] { text-size: 12; }
+  [zoom < 17] { text-size: 11; }
 }
 
 /*
