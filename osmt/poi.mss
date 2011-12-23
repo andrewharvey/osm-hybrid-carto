@@ -1019,7 +1019,7 @@
   }
 }
 
-[zoom > 16] .poi#amenity[amenity='survey_point'] {
+[zoom > 16] .poi#man_made[man_made='survey_point'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/amenity/survey_point.glow.000000.12.png') }
   [zoom = 18] {
     point-file: url('/usr/share/icons/sjjb/png/amenity/survey_point.glow.000000.16.png');
