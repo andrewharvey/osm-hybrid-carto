@@ -74,7 +74,7 @@ $col = 734A08
 $mod = glow
 $label = yes
   .poi#amenity[amenity=college] education/
-  .poi#amenity[amenity=child_care] education/nursery
+  .poi#amenity[amenity=kindergarten] education/nursery
   .poi#amenity[amenity=school] education/school
   .poi#amenity[amenity=university] education/
 

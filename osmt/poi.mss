@@ -2870,7 +2870,7 @@
   }
 }
 
-[zoom > 16] .poi#amenity[amenity='child_care'] {
+[zoom > 16] .poi#amenity[amenity='kindergarten'] {
   [zoom = 17] { point-file: url('/usr/share/icons/sjjb/png/education/nursery.glow.734A08.12.png') }
   [zoom = 18] {
     point-file: url('/usr/share/icons/sjjb/png/education/nursery.glow.734A08.16.png');
