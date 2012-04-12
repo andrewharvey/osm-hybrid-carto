@@ -12,16 +12,13 @@ License
 OSM Hybrid Carto Style sheet (c) by Andrew Harvey `<andrew.harvey4@gmail.com>`
 
 OSM Hybrid Carto Style sheet is licensed under a
-Creative Commons Attribution-ShareAlike 3.0 Unported License.
+Creative Commons CC0 Public Domain Dedication license.
 
 You should have received a copy of the license along with this
-work. If not, see <http://creativecommons.org/licenses/by-sa/3.0/>.
+work. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-My intention is for this style sheet source and any map images rendered from this
-style sheet to be covered by this license. I consider rendering your own data
-using this style sheet a derived work of both this style sheet and your source
-data and as such I ask that you comply with the ShareAlike requirements of this
-license if you publish map images made using this style sheet.
+Although not required, I would prefer you give Attribution when using this work
+and release modifications to this stylesheet under the same CC0 license.
 
 Configuration
 =============
