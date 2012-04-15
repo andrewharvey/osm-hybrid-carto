@@ -51,5 +51,5 @@ This is probably because the Debain build of Mapnik uses a font path of
 `/usr/share/fonts/truetype/ttf-dejavu`. You can run `mapnik-config --fonts` to
 check the current path. I found setting this to `/usr/share/fonts/truetype`
 worked, either by changing this at Mapnik build time or by editing
-`/usr/lib/python2.6/dist-packages/mapnik2/paths.py`.
+`/usr/share/pyshared/mapnik2/paths.py`.
 
