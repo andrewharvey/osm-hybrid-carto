@@ -13,6 +13,12 @@
   icon with name)
 */
 
+Map {
+  /* Due to the use of extra large text for high zooms for suburb and
+     place names, this style requires a fair bit of padding. */
+  buffer-size: 256;
+}
+
 /*
   Large labeled areas such as park, golf courses and schools.
 
