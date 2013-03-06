@@ -5,6 +5,9 @@ OSMT (OSM Hybrid Carto) is a map style written in
 [OpenStreetMap](http://www.openstreetmap.org/) data. It is designed as an
 overlay to be shown on top of satellite or aerial imagery.
 
+![OSMT Preview on AGRI Base Imagery](http://tianjara.net/hosted/osmt-git-preview.png)
+([image attribution]((http://tianjara.net/hosted/COPYRIGHT))
+
 I have [a live demo of this map style here](http://tianjara.net/leaflet.html#map=agri,osmt;lat=-33.89;lon=151.27;zoom=15).
 
 License
